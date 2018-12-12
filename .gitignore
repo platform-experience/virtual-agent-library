@@ -1,0 +1,16 @@
+# compiled output
+dist
+
+# temp files
+tmp
+
+# dependencies
+node_modules
+
+# misc
+npm-debug.log
+yarn-error.log
+
+# System Files
+.DS_Store
+Thumbs.db

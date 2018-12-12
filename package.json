@@ -1,0 +1,10 @@
+{
+  "name": "virtual-agent-library",
+  "version": "1.0.0",
+  "description": "A collection of ServiceNow virtual agent conversations",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Steven Gregory",
+  "license": "ISC",
+  "keywords": []
+}
