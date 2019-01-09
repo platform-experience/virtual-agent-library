@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "category": "General",
+  "common-name": "Watson Sample",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London"
+  ],
+  "contributors": [
+    "Steven Gregory"
+  ],
+  "keywords": [
+    "ibm",
+    "watson",
+    "virtual agent"
+  ],
+  "name": "va-watson-sample",
+  "publishing-goal": "Update set",
+  "solution-details": "A Watson integration based topic for sample conversations.",
+  "type": "Virtual Agent",
+  "version": "1.0.0"
+}
