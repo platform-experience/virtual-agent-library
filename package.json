@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "A collection of ServiceNow virtual agent conversations",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "./scripts/build.sh"
+  },
   "author": "Steven Gregory",
   "license": "ISC",
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "yarn": "^1.13.0"
+  }
 }
