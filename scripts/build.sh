@@ -62,7 +62,7 @@ make_commit() {
   echo -e "${BLUE}${COMMIT_STATUS_MSG}${RESET}"
   cd ../../
   git add ${SRC_DIR}/${PREFIX}${VA}
-  git commit -a -m "${COMMIT_MSG}"
+  git commit -a -m "${COMMIT_MSG} ${va_name_lower}"
   echo -e "${GREEN}${DONE_MSG}${RESET}"
 }
 
@@ -72,6 +72,10 @@ make_core_dir() {
   else
     mkdir $1 && cd $1
   fi
+}
+
+make_lowercase() {
+  echo $(tr '[:lower:]' '[:lower:]' <<< ${i:0:1})${i:1}"$(make_space $1)"
 }
 
 make_space() {
@@ -92,7 +96,8 @@ set_name() {
   local va_dir=()
   for i in "${inputs[@]}"; do
     va_dir+=$(echo -${i} | tr '[:upper:]' '[:lower:]')
-    va_name+=$(make_uppercase ${i})
+    va_name_upper+=$(make_uppercase ${i})
+    va_name_lower+=$(make_lowercase ${i})
   done
   VA=$(format_data ${va_dir[@]})
 }
@@ -101,7 +106,7 @@ sub_base_content() {
   echo -e "${BLUE}${UPDATE_MSG}${RESET}"
   if [[ ${name_has_dashes} ]]; then
     local dash_readme=()
-    rm=${va_name}
+    rm=${va_name_upper}
     IFS='-' read -ra content <<< "$rm"
     for i in "${content[@]}"; do
       dash_readme+=$(make_uppercase ${i})
@@ -109,8 +114,8 @@ sub_base_content() {
     replace_content "${NAME_TEMP}" "${dash_readme%??}" README.md
     replace_content "${NAME_TEMP}" "${dash_readme%??}" config.json
   else
-    replace_content "${NAME_TEMP}" "${va_name%?}" README.md
-    replace_content "${NAME_TEMP}" "${va_name%?}" config.json
+    replace_content "${NAME_TEMP}" "${va_name_upper%?}" README.md
+    replace_content "${NAME_TEMP}" "${va_name_upper%?}" config.json
   fi
   replace_content "${CONTRIB_TEMP}" "$(fetch_github_user)" config.json
   replace_content "${DIR_TEMP}" "${PREFIX}${VA}" config.json
