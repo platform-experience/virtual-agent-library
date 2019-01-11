@@ -2,7 +2,7 @@
 
 ## Description
 
-> None
+A Virtual Agent conversation centered around an HR case; where vacation days are showing up wrong for employees, so they reach out to a Virtual Agent for assistance.
 
 ## Screenshot
 
