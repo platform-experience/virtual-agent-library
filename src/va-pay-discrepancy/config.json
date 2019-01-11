@@ -1,0 +1,22 @@
+{
+  "active": true,
+  "category": "General",
+  "common-name": "Pay Discrepancy",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London"
+  ],
+  "contributors": [
+    "Steven Gregory"
+  ],
+  "keywords": [
+    "va",
+    "virtual agent"
+  ],
+  "name": "va-pay-discrepancy",
+  "publishing-goal": "Update set",
+  "solution-details": "",
+  "type": "Virtual Agent",
+  "version": "1.0.0"
+}
