@@ -1,0 +1,20 @@
+{
+  "active": true,
+  "category": "General",
+  "common-name": "Change Address",
+  "compatibility": [
+    "London"
+  ],
+  "contributors": [
+    "Chris Stoll"
+  ],
+  "keywords": [
+    "VA",
+    "Virtual Agent"
+  ],
+  "name": "va-change-address",
+  "publishing-goal": "Update set",
+  "solution-details": "A Virtual Agent conversation to assist the user in updating their profile with new street address information.",
+  "type": "Virtual Agent",
+  "version": "1.0.0"
+}
