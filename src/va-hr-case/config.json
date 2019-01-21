@@ -1,22 +1,21 @@
 {
   "active": true,
-  "category": "General",
-  "common-name": "HR Case",
+  "category": "Human Resources",
+  "common-name": "HR Relocation Assistance Case",
   "compatibility": [
-    "Jakarta",
-    "Kingston",
     "London"
   ],
   "contributors": [
     "Jacob Shemkovitz"
   ],
   "keywords": [
+    "hr",
     "va",
     "virtual agent"
   ],
   "name": "va-hr-case",
   "publishing-goal": "Update set",
-  "solution-details": "",
+  "solution-details": "A Virtual Agent conversation to create an HR case for assistance with an employee relocation.",
   "type": "Virtual Agent",
   "version": "1.0.0"
 }
