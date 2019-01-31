@@ -10,7 +10,7 @@ A configurable Virtual Agent conversation to find and update a task-based record
 
 ## Installation
 
-Download and install update set **[va-update-incident.u-update-set.xml](https://github.com/platform-experience/virtual-agent-library/blob/master/va-update-incident/va-update-incident.u-update-set.xml)**
+Download and install update set **[va-update-incident.u-update-set.xml](https://raw.githubusercontent.com/platform-experience/virtual-agent-library/master/src/va-update-incident/va-update-incident.u-update-set.xml)**
 
 Required Plugins: Glide Virtual Agent, Virtual Agent Designer.
 
