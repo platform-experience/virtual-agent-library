@@ -3,8 +3,6 @@
   "category": "General",
   "common-name": "Update Incident",
   "compatibility": [
-    "Jakarta",
-    "Kingston",
     "London"
   ],
   "contributors": [
@@ -12,11 +10,12 @@
   ],
   "keywords": [
     "va",
-    "virtual agent"
+    "virtual agent",
+    "pagination"
   ],
   "name": "va-update-incident",
   "publishing-goal": "Update set",
-  "solution-details": "",
+  "solution-details": "A configurable Virtual Agent conversation to find and comment on an incident or task-based record.",
   "type": "Virtual Agent",
   "version": "1.0.0"
 }

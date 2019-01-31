@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-01-31 03:08:18">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>VA Update Incident</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>7b7682cadbdb23002fa93c61ef96198b</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-01-31 03:08:18</sys_created_on>
+<sys_id>d0504fc2db9f23002fa93c61ef961973</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-01-31 03:08:18</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_cb_topic_5522794edb9b23002fa93c61ef9619c6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><connect_queue/><description/><graph>{
+  "goals": {
+    "908d19a067d24da19613ca5319f869f2": {
+      "id": "908d19a067d24da19613ca5319f869f2",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "7d828d2d6292449b93f6491db49312ea": {
+          "id": "7d828d2d6292449b93f6491db49312ea",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          },
+          "applicability": {
+            "mode": "query",
+            "value": ""
+          }
+        },
+        "b65fa5a11a8e4cf7a2e65b964a2ada36": {
+          "id": "b65fa5a11a8e4cf7a2e65b964a2ada36",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          },
+          "applicability": {
+            "mode": "query",
+            "value": ""
+          }
+        },
+        "6e9791e4551848c28e89e6715896c0ea": {
+          "id": "6e9791e4551848c28e89e6715896c0ea",
+          "stepType": "Prompt",
+          "name": "Message",
+          "prompt": {
+            "value": "Please add a comment.",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "Thank you.",
+            "mode": "simple"
+          },
+          "applicability": {
+            "mode": "query",
+            "value": ""
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "60c9180acae740239219da981477710d"
+        },
+        "12afdde74c864b4299c6db805a3f19dd": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "Selection",
+          "prompt": {
+            "value": "Please select a record.",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "mode": "query",
+            "value": ""
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "9d9bc2fe47eb4c29b52941562eba75d6",
+          "id": "12afdde74c864b4299c6db805a3f19dd",
+          "mode": "glide_record",
+          "script": "",
+          "noRecordsResponseMsg": {
+            "value": "No Records Found",
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_scripted_query",
+            "value": "(function execute(table) {\n\n    var order = {};\n    order.field = vaVars.order_by;\n    order.desc = vaVars.order_desc == true;\n\n    var pagination = {};\n    pagination.limit = parseInt(vaVars.limit_per_page);\n    pagination.index = parseInt(vaVars.index);\n    pagination.end_index = pagination.index + pagination.limit;\n\n    var count = parseInt(vaVars.count);\n    if (count == 0) count = vaVars.count = getResultsCount(table, vaVars.encoded_query);\n    \n    if (count == 0) return [{ label: 'No results.', value: '' }];\n\n    var results = getResults(table, vaVars.encoded_query, order, pagination);\n    results = addPaginationOptions(results, pagination, count);\n    return results;\n\n    function getResultsCount(table, query) {\n        var ga = new GlideAggregate(table);\n        ga.addAggregate(\"COUNT\");\n        if (query) ga.addEncodedQuery( query );\n        ga.query();\n        if (ga.next()) return ga.getAggregate(\"COUNT\");\n        else return 0;\n    }\n\n    function getResults(table, query, order, pagination) {\n        var results = [];\n        var gr = new GlideRecord(table);\n        if (query) gr.addEncodedQuery(query);\n        if (order.field) {\n            if (order.desc) gr.orderByDesc(order.field);\n            else gr.orderBy(order.field);\n        }\n        gr.chooseWindow(pagination.index, pagination.end_index);\n        gr.query();\n        while (gr.next()) {\n            results.push({\n                label: gr[vaVars.display_field].toString() || gr.getDisplayValue(),\n                value: gr.getUniqueValue()\n            });\n        }\n        return results;\n    }\n\n    function addPaginationOptions(results, pg, count) {\n        if ( pg.index &gt; 0 ) {\n            results.push({\n                value: 'decrement',\n                label: 'Show previous '+pg.limit\n            });\n        }\n        if ( count &gt; pg.end_index ) {\n            var nextPageCount = pg.limit;\n            var remainingCount = count - pg.end_index;\n            if (remainingCount &lt;= pg.limit)\n                nextPageCount = remainingCount;\n            results.push({\n                value: 'increment',\n                label: 'Show next '+nextPageCount+' ('+count+' total)'\n            });\n        }\n        return results;\n    }\n    \n})(table)\n"
+          },
+          "table": "cmn_location"
+        },
+        "2a20118dbbf94523afda6b84675e27b8": {
+          "id": "2a20118dbbf94523afda6b84675e27b8",
+          "stepType": "Decision",
+          "name": "Page Change or Select",
+          "applicability": {
+            "mode": "query",
+            "value": ""
+          }
+        },
+        "91a2215841f64054ba6c58555dbbce4d": {
+          "id": "91a2215841f64054ba6c58555dbbce4d",
+          "stepType": "TextOutput",
+          "name": "Confirm Update",
+          "value": {
+            "value": "The record has been updated with your comment.",
+            "mode": "simple"
+          },
+          "applicability": {
+            "mode": "query",
+            "value": ""
+          }
+        },
+        "a8a34dc0efec4bd1a83bf2e07079146e": {
+          "id": "a8a34dc0efec4bd1a83bf2e07079146e",
+          "stepType": "CrudAction",
+          "name": "Update",
+          "template": "comments={{vaInputs.message}}",
+          "mode": "update",
+          "record": "9d9bc2fe47eb4c29b52941562eba75d6",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "835b95eb7f734028985dc427fe243ccd"
+        },
+        "be2004e5937a4dea8f5fed5163e445b6": {
+          "id": "be2004e5937a4dea8f5fed5163e445b6",
+          "stepType": "Decision",
+          "name": "Message Validation",
+          "applicability": {
+            "mode": "query",
+            "value": ""
+          }
+        },
+        "69132f63957a4447a6e642f69d3113d5": {
+          "id": "69132f63957a4447a6e642f69d3113d5",
+          "stepType": "Prompt",
+          "name": "Try Again?",
+          "prompt": {
+            "value": "No message entered. Try again?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "1e3ea3229bd0420b91ffb7e83401a0db"
+        },
+        "eb60ffcd8d904c228665a60a4b75ad7b": {
+          "id": "eb60ffcd8d904c228665a60a4b75ad7b",
+          "stepType": "Decision",
+          "name": "Try Again?",
+          "applicability": {
+            "mode": "query",
+            "value": ""
+          }
+        },
+        "380a6eb90f6240598012744e5aecfcb7": {
+          "id": "380a6eb90f6240598012744e5aecfcb7",
+          "stepType": "LinkOutput",
+          "name": "Updated Record",
+          "url": {
+            "value": "/sp?id=ticket&amp;table={{vaInputs.selection.sys_class_name}}&amp;sys_id={{vaInputs.selection.sys_id}}",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "{{vaInputs.selection.short_description}}",
+            "mode": "simple"
+          },
+          "header": {
+            "value": "Updated Record",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "7fbb3dbae6694ecf82a806f75bd5c4c4",
+          "edgeType": "Edge",
+          "source": "7d828d2d6292449b93f6491db49312ea",
+          "target": "12afdde74c864b4299c6db805a3f19dd",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "41618e7bac6d411e96e11de20440dead",
+          "edgeType": "Edge",
+          "source": "6e9791e4551848c28e89e6715896c0ea",
+          "target": "be2004e5937a4dea8f5fed5163e445b6",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "4a948aef82034b65a7328a9416ac2d38",
+          "edgeType": "Edge",
+          "source": "12afdde74c864b4299c6db805a3f19dd",
+          "target": "2a20118dbbf94523afda6b84675e27b8",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "dbcd6a84d6b344f180ca2684f448a0ce",
+          "edgeType": "Edge",
+          "source": "a8a34dc0efec4bd1a83bf2e07079146e",
+          "target": "91a2215841f64054ba6c58555dbbce4d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "7c8092cdf6e54de38fbcd90db4849719",
+          "edgeType": "Edge",
+          "source": "69132f63957a4447a6e642f69d3113d5",
+          "target": "eb60ffcd8d904c228665a60a4b75ad7b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c0c0d2ff94754bd198f70536ca830cfa",
+          "edgeType": "Branch",
+          "source": "2a20118dbbf94523afda6b84675e27b8",
+          "target": "12afdde74c864b4299c6db805a3f19dd",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n\n    if (vaInputs.selection == 'increment' || vaInputs.selection == 'decrement') {\n        var count = parseInt(vaVars.count);\n        var index = parseInt(vaVars.index);\n        var limit = parseInt(vaVars.limit_per_page);\n        if (vaInputs.selection == 'increment' &amp;&amp; index + limit &lt; count)\n            vaVars.index = index + limit;\n        if (vaInputs.selection == 'decrement')\n            vaVars.index = (index &gt; limit) ? index - limit : 0;\n        return true;\n    } else return false;\n    \n})()"
+          },
+          "label": "page change"
+        },
+        {
+          "id": "fab885de15a14b628088bf654ba3d2cd",
+          "edgeType": "Branch",
+          "source": "2a20118dbbf94523afda6b84675e27b8",
+          "target": "6e9791e4551848c28e89e6715896c0ea",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return vaInputs.selection != '' &amp;&amp; vaInputs.selection != 'increment' &amp;&amp; vaInputs.selection != 'decrement';\n})()"
+          },
+          "label": "select"
+        },
+        {
+          "id": "d18da86a8af94901a600163d92a470a1",
+          "edgeType": "Branch",
+          "source": "2a20118dbbf94523afda6b84675e27b8",
+          "target": "b65fa5a11a8e4cf7a2e65b964a2ada36",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "selectionISEMPTY",
+            "mode": "query"
+          },
+          "label": "no results"
+        },
+        {
+          "id": "fc09c53deeee45009a13fadf5eee6d21",
+          "edgeType": "Branch",
+          "source": "be2004e5937a4dea8f5fed5163e445b6",
+          "target": "69132f63957a4447a6e642f69d3113d5",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "messageISEMPTY",
+            "mode": "query"
+          },
+          "label": "No Message"
+        },
+        {
+          "id": "1de9726bacf8429fa14276a567afe219",
+          "edgeType": "Branch",
+          "source": "be2004e5937a4dea8f5fed5163e445b6",
+          "target": "a8a34dc0efec4bd1a83bf2e07079146e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "messageISNOTEMPTY",
+            "mode": "query"
+          },
+          "label": "Message Exists"
+        },
+        {
+          "id": "e0dfaaac2ba1494e87d113f111c95666",
+          "edgeType": "Branch",
+          "source": "eb60ffcd8d904c228665a60a4b75ad7b",
+          "target": "6e9791e4551848c28e89e6715896c0ea",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "try_again_=true",
+            "mode": "query"
+          },
+          "label": "Yes"
+        },
+        {
+          "id": "5cb93f94cfca4efa91f89e326c9a030d",
+          "edgeType": "Branch",
+          "source": "eb60ffcd8d904c228665a60a4b75ad7b",
+          "target": "b65fa5a11a8e4cf7a2e65b964a2ada36",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "try_again_=",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "b73252e8e0fd4b5f9b1a41e6d2701c48",
+          "edgeType": "Edge",
+          "source": "91a2215841f64054ba6c58555dbbce4d",
+          "target": "380a6eb90f6240598012744e5aecfcb7",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "94f1baa6c2ce4d40853c119e3ae73195",
+          "edgeType": "Edge",
+          "source": "380a6eb90f6240598012744e5aecfcb7",
+          "target": "b65fa5a11a8e4cf7a2e65b964a2ada36",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "graph_api_version": "1.0.10",
+  "variables": {
+    "60c9180acae740239219da981477710d": {
+      "id": "60c9180acae740239219da981477710d",
+      "name": "message",
+      "label": "Message",
+      "varType": "string",
+      "category": "vaInputs"
+    },
+    "9d9bc2fe47eb4c29b52941562eba75d6": {
+      "id": "9d9bc2fe47eb4c29b52941562eba75d6",
+      "name": "selection",
+      "label": "Selection",
+      "varType": "reference",
+      "table": "incident",
+      "category": "vaInputs"
+    },
+    "5627bf93072b4d1b8250ff01a7d025a3": {
+      "id": "5627bf93072b4d1b8250ff01a7d025a3",
+      "value": {
+        "mode": "simple",
+        "value": "3"
+      },
+      "name": "limit_per_page",
+      "label": "limit_per_page",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "3aec5b45046c4eff93554ec874bdf0b8": {
+      "id": "3aec5b45046c4eff93554ec874bdf0b8",
+      "value": {
+        "mode": "simple",
+        "value": "0"
+      },
+      "name": "index",
+      "label": "index",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "8ff2b151104c4e40b6d7354866741f53": {
+      "id": "8ff2b151104c4e40b6d7354866741f53",
+      "value": {
+        "mode": "simple",
+        "value": "0"
+      },
+      "name": "count",
+      "label": "count",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "9ca193b06adc423f841ad7e3042ac291": {
+      "id": "9ca193b06adc423f841ad7e3042ac291",
+      "value": {
+        "mode": "simple",
+        "value": "opened_at"
+      },
+      "name": "order_by",
+      "label": "order_by",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "343fef0b18d148a2ba114dbb2b807666": {
+      "id": "343fef0b18d148a2ba114dbb2b807666",
+      "value": {
+        "mode": "simple",
+        "value": "true"
+      },
+      "name": "order_desc",
+      "label": "order_desc",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "df7a954f7dfd4edd9eee0ff37535c721": {
+      "id": "df7a954f7dfd4edd9eee0ff37535c721",
+      "value": {
+        "mode": "script",
+        "value": "(function execute() {\n    return 'active=true^caller_id='+gs.getUserID();\n})()"
+      },
+      "name": "encoded_query",
+      "label": "encoded_query",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "835b95eb7f734028985dc427fe243ccd": {
+      "id": "835b95eb7f734028985dc427fe243ccd",
+      "name": "update",
+      "label": "Update",
+      "varType": "reference",
+      "table": "wm_order",
+      "inactive": true,
+      "category": "vaInputs"
+    },
+    "1e3ea3229bd0420b91ffb7e83401a0db": {
+      "id": "1e3ea3229bd0420b91ffb7e83401a0db",
+      "name": "try_again_",
+      "label": "Try Again?",
+      "varType": "boolean",
+      "category": "vaInputs"
+    },
+    "34f8e0004ac344e7959ef613fd451ff6": {
+      "id": "34f8e0004ac344e7959ef613fd451ff6",
+      "value": {
+        "mode": "simple",
+        "value": "short_description"
+      },
+      "name": "display_field",
+      "label": "display_field",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph><key_phrases>update incident,incident,inc</key_phrases><live_agent>false</live_agent><name>Update Incident</name><roles/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>jacob</sys_created_by><sys_created_on>2019-01-30 21:26:46</sys_created_on><sys_domain>global</sys_domain><sys_id>5522794edb9b23002fa93c61ef9619c6</sys_id><sys_mod_count>14</sys_mod_count><sys_name>Update Incident</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_cb_topic_5522794edb9b23002fa93c61ef9619c6</sys_update_name><sys_updated_by>jacob</sys_updated_by><sys_updated_on>2019-01-31 03:04:05</sys_updated_on><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=5522794edb9b23002fa93c61ef9619c6"/></record_update>]]></payload>
+<payload_hash>1610912806</payload_hash>
+<remote_update_set display_value="VA Update Incident">d0504fc2db9f23002fa93c61ef961973</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-01-31 03:08:18</sys_created_on>
+<sys_id>5c508fc2db9f23002fa93c61ef9619b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168a1dd0ff80000001</sys_recorded_at>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-01-31 03:08:18</sys_updated_on>
+<table/>
+<target_name>Update Incident</target_name>
+<type>Topic</type>
+<update_domain>global</update_domain>
+<update_guid>2a5ffece2a5f2300cfb20b40c95aec68</update_guid>
+<update_guid_history>2a5ffece2a5f2300cfb20b40c95aec68:1610912806,4b9d4602c91f2300be6577efdc22ef98:-86359522,456d4602881f23006e703e1f336432a3:-1531160894,9a3d4602871f2300193890afc32aa39f:1541560976,e67c4602341f230005365c7f7b76a190:-1531160894,024c0e4ee2db2300ab0a67e50cdd968c:2125966975,9d8b82ce6fdb23003cc0d8626c163c7d:789497474,039a82ce4ddb23003b9e7e9683747e78:-1177758772,371a06ca25db230042390cee09b3e8e4:-975518766,c6880a0e45db23006b8733d3ef3fc5e9:563252676,aaa68a8aa9db23003d4fc80bb95e5d55:-294048095,7019fd02cadb23000e634d96b747a365:1011612143,ac16f5ceb69b23009e6691c083d6b896:940102300,5b82bd4e059b23000cfed27971325f5d:1104721627,3d22b94e1d9b2300e93d08d10f1b89b5:-1359851912</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
