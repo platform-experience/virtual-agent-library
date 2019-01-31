@@ -1,0 +1,22 @@
+{
+  "active": true,
+  "category": "General",
+  "common-name": "Update Incident",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London"
+  ],
+  "contributors": [
+    "Jacob Shemkovitz"
+  ],
+  "keywords": [
+    "va",
+    "virtual agent"
+  ],
+  "name": "va-update-incident",
+  "publishing-goal": "Update set",
+  "solution-details": "",
+  "type": "Virtual Agent",
+  "version": "1.0.0"
+}
