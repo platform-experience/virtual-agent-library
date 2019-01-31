@@ -9,7 +9,7 @@ UPDATE_SET=u-update-set.xml
 
 # gists
 CONFIG_GIST=https://gist.githubusercontent.com/stevengregory/0dbda0df6403831aefc029ae1d2e8ab3/raw/93dc1af0aa7546c3c6cdadd8645467ac6e7d1360/config.json
-README_GIST=https://gist.githubusercontent.com/stevengregory/fdadacb4928215ee981eaf435e32f018/raw/b746201c279fb738fef1648ab39aeec315fa5eab/README.md
+README_GIST=https://gist.githubusercontent.com/stevengregory/10e5051b2794dfd7f95a04a5a3fcec76/raw/c9e2c5a950071f87a5910fa47707a3567830acda/README.md
 
 # prefix
 PREFIX=va
