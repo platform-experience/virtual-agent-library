@@ -1,0 +1,21 @@
+{
+  "active": true,
+  "category": "General",
+  "common-name": "Update Incident",
+  "compatibility": [
+    "London"
+  ],
+  "contributors": [
+    "Jacob Shemkovitz"
+  ],
+  "keywords": [
+    "va",
+    "virtual agent",
+    "pagination"
+  ],
+  "name": "va-update-incident",
+  "publishing-goal": "Update set",
+  "solution-details": "A configurable Virtual Agent conversation to find and comment on an incident or task-based record.",
+  "type": "Virtual Agent",
+  "version": "1.0.0"
+}
