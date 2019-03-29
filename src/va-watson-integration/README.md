@@ -2,7 +2,7 @@
 
 ## Description
 
-An IBM Watson integration experiment looking at two elements of AI: the Language Translator and Watson Assistant.
+An IBM Watson integration experiment looking at two AI services: the Language Translator and Watson Assistant.
 
 ## Screenshot
 
