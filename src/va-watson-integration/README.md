@@ -2,7 +2,7 @@
 
 ## Description
 
-> None
+An IBM Watson integration experiment looking at two elements of AI: the Language Translator and Watson Assistant.
 
 ## Screenshot
 
@@ -10,7 +10,7 @@
 
 ## Additional Information/Notes
 
-> None
+The topic starts off with a greeting and then Watson uses the Language Identification API to detect the language of the user. The API supports the ability to identify up to 62 languages; [C-3PO](https://en.wikipedia.org/wiki/C-3PO) style. If English is not detected, Watson uses the [Language Translator](https://www.ibm.com/watson/services/language-translator/) to respond in the language of the user and hands them off to a representative to end the conversation. The other route is, English is detected from the user and a [Watson Assistant](https://www.ibm.com/cloud/watson-assistant/) dialog is activated. The assistant engages the user on a Customer Service sample skill around booking an appointment and offering store information. The conversation ends upon the user successfully booking an appointment with a date and phone number confirmation.
 
 ## Installation
 
@@ -20,8 +20,8 @@ Required plugins: Glide Virtual Agent, Virtual Agent Designer.
 
 After installation, the topic can be accessed via the `Virtual Agent > Designer` section for use and customization.
 
-* SN Product Documentation - ['Load a customization from a single XML file'](https://docs.servicenow.com/bundle/kingston-application-development/page/build/system-update-sets/task/t_SaveAnUpdateSetAsAnXMLFile.html)
+- SN Product Documentation - ['Load a customization from a single XML file'](https://docs.servicenow.com/bundle/kingston-application-development/page/build/system-update-sets/task/t_SaveAnUpdateSetAsAnXMLFile.html)
 
 ## Configuration
 
-> None
+Create an account with [IBM Watson](https://www.ibm.com/watson) to get started. After that, create a resource for both the Language Translator & Watson Assistant services. From there you will need to fetch the API Key and endpoint that can be plugged into the REST API of the Virtual Agent for customization.
