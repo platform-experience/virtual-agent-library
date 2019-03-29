@@ -1,0 +1,22 @@
+{
+  "active": true,
+  "category": "General",
+  "common-name": "Watson Integration",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London"
+  ],
+  "contributors": [
+    "Steven Gregory"
+  ],
+  "keywords": [
+    "va",
+    "virtual agent"
+  ],
+  "name": "va-watson-integration",
+  "publishing-goal": "Update set",
+  "solution-details": "",
+  "type": "Virtual Agent",
+  "version": "1.0.0"
+}
