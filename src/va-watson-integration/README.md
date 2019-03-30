@@ -24,4 +24,4 @@ After installation, the topic can be accessed via the `Virtual Agent > Designer`
 
 ## Configuration
 
-Create an account with [IBM Watson](https://www.ibm.com/watson) to get started. After that, create a resource for both the Language Translator & Watson Assistant services. From there you will need to fetch the API Key and endpoint that can be plugged into the REST API of the Virtual Agent for customization.
+Create an account with [IBM Watson](https://www.ibm.com/watson) to get started. After that, create a service for both the Language Translator & Watson Assistant. From there you will need to fetch the API Key and URL that can be plugged into the REST API of the Virtual Agent for customization. The update set doesn't include the basic auth profile for the three REST messages (IBM Watson Identify Language, IBM Watson Language Translator, IBM Watson Assistant); those will need to be added with _apikey_ as the username and the actual API Key as the password from the corresponding Watson service.
