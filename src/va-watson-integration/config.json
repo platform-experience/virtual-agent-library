@@ -1,0 +1,13 @@
+{
+  "active": true,
+  "category": "Watson",
+  "common-name": "Watson Integration",
+  "compatibility": ["Jakarta", "Kingston", "London"],
+  "contributors": ["Steven Gregory", "Fu Ho"],
+  "keywords": ["IBM Watson", "Watson Assistant", "Language Translator", "Virtual Agent"],
+  "name": "va-watson-integration",
+  "publishing-goal": "Update set",
+  "solution-details": "A Virtual Agent conversation centered around an IBM Watson integration; looking at two AI services: the Language Translator and Watson Assistant.",
+  "type": "Virtual Agent",
+  "version": "1.0.0"
+}
