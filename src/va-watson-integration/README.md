@@ -2,7 +2,7 @@
 
 ## Description
 
-An IBM Watson integration experiment looking at two AI services: the Language Translator and Watson Assistant.
+A Virtual Agent conversation centered around an IBM Watson integration; looking at two AI services: the Language Translator and Watson Assistant.
 
 ## Screenshot
 
