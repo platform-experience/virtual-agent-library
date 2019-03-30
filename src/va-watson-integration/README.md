@@ -2,7 +2,7 @@
 
 ## Description
 
-A Virtual Agent conversation centered around an IBM Watson integration; looking at two AI services: the Language Translator and Watson Assistant.
+A Virtual Agent conversation centered around an [IBM Watson](https://www.ibm.com/watson) integration; looking at two AI services: the Language Translator and Watson Assistant.
 
 ## Screenshot
 
@@ -24,4 +24,4 @@ After installation, the `Watson Integration` topic can be accessed via the `Virt
 
 ## Configuration
 
-Create an account with [IBM Watson](https://www.ibm.com/watson) to get started. After that, create a service for both the Language Translator & Watson Assistant. From there you will need to fetch the API Key and URL that can be plugged into the REST API of the Virtual Agent for customization. The update set doesn't include the basic auth profile for the three REST messages (IBM Watson Identify Language, IBM Watson Language Translator, IBM Watson Assistant); those will need to be added with _apikey_ as the username and the actual API Key as the password from the corresponding Watson service.
+Create an [IBM Cloud account](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/signup-wdp.html) to get started. After that, create a service for both the Language Translator & Watson Assistant. From there you will need to fetch the API Key and URL that can be plugged into the REST API of the Virtual Agent for customization. The update set doesn't include the basic auth profile for the three REST messages (IBM Watson Identify Language, IBM Watson Language Translator, IBM Watson Assistant); those will need to be added with _apikey_ as the username and the actual API Key as the password from the corresponding Watson service.
