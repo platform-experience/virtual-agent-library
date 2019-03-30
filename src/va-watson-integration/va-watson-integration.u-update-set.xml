@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-03-30 00:22:27">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Watson Integration</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>ce3e6038dbecff0057a7f03d0f9619c6</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>5c960978db20334057a7f03d0f9619dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_e00df4b0db20334057a7f03d0f96190b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>IBM Watson Identify Language [ Default GET ]</qualified_name><rest_endpoint>https://gateway.watsonplatform.net/language-translator/api/v3/identify?version=2018-05-01</rest_endpoint><rest_message display_value="IBM Watson Identify Language">f1ec74b0db20334057a7f03d0f9619df</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>steven.gregory</sys_created_by><sys_created_on>2019-03-29 23:40:41</sys_created_on><sys_id>e00df4b0db20334057a7f03d0f96190b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_e00df4b0db20334057a7f03d0f96190b</sys_update_name><sys_updated_by>steven.gregory</sys_updated_by><sys_updated_on>2019-03-29 23:40:41</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-130791102</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>10960978db20334057a7f03d0f9619df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cbd3af820000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name>Default GET</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>e00df4b08220334020deffdfcdbb4a0c</update_guid>
+<update_guid_history>e00df4b08220334020deffdfcdbb4a0c:-130791102</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_30bf3c34db20334057a7f03d0f9619a8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content>{&#13;
+  "input": {"text": "${text}"},&#13;
+  "context": ${context}&#13;
+}</content><function_name>Assistant</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>IBM Watson Assistant [ Assistant ]</qualified_name><rest_endpoint>https://gateway-wdc.watsonplatform.net/assistant/api</rest_endpoint><rest_message display_value="IBM Watson Assistant">67d834fcdbecff0057a7f03d0f961946</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>steven.gregory</sys_created_by><sys_created_on>2019-03-29 23:52:46</sys_created_on><sys_id>30bf3c34db20334057a7f03d0f9619a8</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Assistant</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_30bf3c34db20334057a7f03d0f9619a8</sys_update_name><sys_updated_by>steven.gregory</sys_updated_by><sys_updated_on>2019-03-29 23:53:32</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>250000045</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>14960978db20334057a7f03d0f9619de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cbdf70ce0000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name>Assistant</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>a8ff70741e203340c368777600e61862</update_guid>
+<update_guid_history>a8ff70741e203340c368777600e61862:250000045,e5cfbc344a203340fc1160b10107b190:-1060180116</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_var__m_topic_variable_cadee438dbecff0057a7f03d0f9619a2_user_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="user" label="User" language="en" table="var__m_topic_variable_cadee438dbecff0057a7f03d0f9619a2"><sys_documentation action="INSERT_OR_UPDATE"><element>user</element><help/><hint/><label>User</label><language>en</language><name>var__m_topic_variable_cadee438dbecff0057a7f03d0f9619a2</name><plural>User</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>steven.gregory</sys_created_by><sys_created_on>2019-03-29 22:38:49</sys_created_on><sys_id>cedee438dbecff0057a7f03d0f9619a7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_var__m_topic_variable_cadee438dbecff0057a7f03d0f9619a2_user_en</sys_update_name><sys_updated_by>steven.gregory</sys_updated_by><sys_updated_on>2019-03-29 22:38:49</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1956640044</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>18960978db20334057a7f03d0f9619dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cb9b0c470000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table>var__m_topic_variable_cadee438dbecff0057a7f03d0f9619a2</table>
+<target_name>.User</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>dadee438e9ecff00ccd3ee58a4497ac2</update_guid>
+<update_guid_history>dadee438e9ecff00ccd3ee58a4497ac2:1956640044,1edee43834ecff00b6f880936ca532b2:1956640044</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_6a20f478dbecff0057a7f03d0f9619bd</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.WatsonService&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;WatsonService&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var WatsonService = Class.create();
+WatsonService.prototype = {
+  initialize: function() {},
+  getLanguage: function(input) {
+    var r = this.doRestMsg('IBM Watson Identify Language', 'Identify');
+    r.setStringParameterNoEscape('text', input);
+    var response = r.execute();
+    var responseBody = response.getBody();
+    var result = JSON.parse(responseBody);
+    return result.languages[0].language;
+  },
+  isEnglish: function(language) {
+    return language === 'en' ? true : false;
+  },
+  doRestMsg: function(name, method) {
+    return new sn_ws.RESTMessageV2(name, method);
+  },
+  translate: function(input, model) {
+    var r = this.doRestMsg('IBM Watson Language Translator', 'Translate');
+    r.setStringParameterNoEscape('text', input);
+    r.setStringParameterNoEscape('model_id', model);
+    var response = r.execute();
+    var responseBody = response.getBody();
+    var result = JSON.parse(responseBody);
+    return result.translations[0].translation;
+  },
+  type: 'WatsonService'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;steven.gregory&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-03-29 22:45:46&lt;/sys_created_on&gt;&lt;sys_id&gt;6a20f478dbecff0057a7f03d0f9619bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;WatsonService&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_6a20f478dbecff0057a7f03d0f9619bd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;steven.gregory&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-03-29 23:59:23&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>295338892</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>18960978db20334057a7f03d0f9619e0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cbe4cdc10000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name>WatsonService</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>1e4141b4982033409d4102e8be11bd0e</update_guid>
+<update_guid_history>1e4141b4982033409d4102e8be11bd0e:295338892,4470b8782decff00889907897f634125:-1681730956</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_74ff7074db20334057a7f03d0f96192e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Accept</name><rest_message_function display_value="Assistant">30bf3c34db20334057a7f03d0f9619a8</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>steven.gregory</sys_created_by><sys_created_on>2019-03-29 23:54:23</sys_created_on><sys_id>74ff7074db20334057a7f03d0f96192e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Accept</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_headers_74ff7074db20334057a7f03d0f96192e</sys_update_name><sys_updated_by>steven.gregory</sys_updated_by><sys_updated_on>2019-03-29 23:54:23</sys_updated_on><value>application/json</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>161556295</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>1c960978db20334057a7f03d0f9619df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cbe03a050000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name>Accept</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>41208174f120334020b0ef630178bc9f</update_guid>
+<update_guid_history>41208174f120334020b0ef630178bc9f:161556295</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_cb_topic_cadee438dbecff0057a7f03d0f9619a2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><connect_queue/><description>An IBM Watson integration experiment looking at two AI services: the Language Translator and Watson Assistant.</description><graph>{
+  "graph_api_version": "1.0.3",
+  "goals": {
+    "3f9e821a80d74129ba58144f35d29c16": {
+      "id": "3f9e821a80d74129ba58144f35d29c16",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "12620845d4af406a88a824a6861c6a9e": {
+          "id": "12620845d4af406a88a824a6861c6a9e",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "e541d0d4e644424d818f0334ed25874b": {
+          "id": "e541d0d4e644424d818f0334ed25874b",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "2e0e2d322eab44c5abe246c91f29274f": {
+          "id": "2e0e2d322eab44c5abe246c91f29274f",
+          "stepType": "Prompt",
+          "name": "Greeting",
+          "prompt": {
+            "value": "(function execute() {\n  return 'Hello ' + vaVars.first_name + ', how can I help you?';\n})()\n",
+            "mode": "script"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": "",
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "caf28346a47d459b945fbd33982b09b4"
+        },
+        "b1f49c7e213b433bbab0a1f48414ad64": {
+          "id": "b1f49c7e213b433bbab0a1f48414ad64",
+          "stepType": "TextOutput",
+          "name": "Watson Identify Language",
+          "value": {
+            "value": "(function execute() {\n  var watson = new WatsonService;\n  vaVars.language = watson.getLanguage(vaInputs.greeting);\n  vaVars.is_english = watson.isEnglish(vaVars.language);\n})();\n",
+            "mode": "script"
+          },
+          "applicability": ""
+        },
+        "2d95155c0aef4fb0ba940132e98364db": {
+          "id": "2d95155c0aef4fb0ba940132e98364db",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "49677c260af64fa38b88a2c307bee1e5": {
+          "id": "49677c260af64fa38b88a2c307bee1e5",
+          "stepType": "TextOutput",
+          "name": "Transfer Message",
+          "value": {
+            "value": "(function execute() {\n  return vaVars.english_transfer;\n})()\n",
+            "mode": "script"
+          },
+          "applicability": ""
+        },
+        "4d23e8398c074ffb8ea36bb8c5e2d0e9": {
+          "id": "4d23e8398c074ffb8ea36bb8c5e2d0e9",
+          "stepType": "TextOutput",
+          "name": "Watson Translate",
+          "value": {
+            "value": "(function execute() {\n  var watson = new WatsonService;\n  var modelId = 'en' + '-' + vaVars.language;\n  return watson.translate(vaVars.transfer_msg, modelId);\n})()\n",
+            "mode": "script"
+          },
+          "applicability": ""
+        },
+        "fe3f0320fee54cf5a67b11a0e076d46b": {
+          "id": "fe3f0320fee54cf5a67b11a0e076d46b",
+          "stepType": "Prompt",
+          "name": "Talk",
+          "prompt": {
+            "value": "(function execute() {\n  return vaVars.watson_response;\n})()\n",
+            "mode": "script"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": "",
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "b629bd3f8b4649f68b418a7c8ccdaf40"
+        },
+        "c9cf6d2faa084609901ebbd6ef8ec5cf": {
+          "id": "c9cf6d2faa084609901ebbd6ef8ec5cf",
+          "stepType": "TextOutput",
+          "name": "Watson Assistant",
+          "value": {
+            "value": "(function execute() {\n  var r = new sn_ws.RESTMessageV2('IBM Watson Assistant', 'Assistant');\n  r.setStringParameterNoEscape('text', vaInputs.talk);\n  r.setStringParameterNoEscape('context', vaVars.watson_context);\n  var response = r.execute();\n  var responseBody = response.getBody();\n  var result = JSON.parse(responseBody);\n  var responseLength = result.output.generic.length;\n  var text = '';\n  for (var i = 0; i &lt; responseLength; i++) {\n    text = text + ' ' + result.output.generic[i].text;\n  }\n  vaVars.watson_response = text;\n  vaVars.watson_context = JSON.stringify(result.context);\n  vaVars.watson_intent = result.intents[0].intent;\n})();",
+            "mode": "script"
+          },
+          "applicability": ""
+        },
+        "7321bc5f9d80489a8c0f2533c5138ed6": {
+          "id": "7321bc5f9d80489a8c0f2533c5138ed6",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "bb574edc6605462f8b65991724e5c3d5": {
+          "id": "bb574edc6605462f8b65991724e5c3d5",
+          "stepType": "TextOutput",
+          "name": "Watson End",
+          "value": {
+            "value": "(function execute() {\n  return vaVars.watson_response;\n})()\n",
+            "mode": "script"
+          },
+          "applicability": ""
+        }
+      },
+      "edges": [
+        {
+          "id": "8f1bd645117746ccabbee01a3c917698",
+          "edgeType": "Edge",
+          "source": "12620845d4af406a88a824a6861c6a9e",
+          "target": "2e0e2d322eab44c5abe246c91f29274f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "efbd01421eb248909b15999166cb1a3f",
+          "edgeType": "Edge",
+          "source": "2e0e2d322eab44c5abe246c91f29274f",
+          "target": "b1f49c7e213b433bbab0a1f48414ad64",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "7f7c94a6164b43ae9e5007f9c44f1f29",
+          "edgeType": "Edge",
+          "source": "b1f49c7e213b433bbab0a1f48414ad64",
+          "target": "2d95155c0aef4fb0ba940132e98364db",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e4012e8bae8d4514b0bdbc3a6fae3096",
+          "edgeType": "Branch",
+          "source": "2d95155c0aef4fb0ba940132e98364db",
+          "target": "49677c260af64fa38b88a2c307bee1e5",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": "(function execute() {\n  return vaVars.is_english == true;\n})()\n",
+          "label": "Is English"
+        },
+        {
+          "id": "14b50ffaf186471795584362763079fe",
+          "edgeType": "Branch",
+          "source": "2d95155c0aef4fb0ba940132e98364db",
+          "target": "4d23e8398c074ffb8ea36bb8c5e2d0e9",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": "(function execute() {\n    return vaVars.is_english != true;\n})()\n",
+          "label": "Not English"
+        },
+        {
+          "id": "f2eb955bf82a4dec84f2131aa9c790b5",
+          "edgeType": "Edge",
+          "source": "4d23e8398c074ffb8ea36bb8c5e2d0e9",
+          "target": "e541d0d4e644424d818f0334ed25874b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0b5e42253a564b10af574d6879e215f5",
+          "edgeType": "Edge",
+          "source": "49677c260af64fa38b88a2c307bee1e5",
+          "target": "fe3f0320fee54cf5a67b11a0e076d46b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "455376c2cff443db914abecb3f576ec2",
+          "edgeType": "Edge",
+          "source": "fe3f0320fee54cf5a67b11a0e076d46b",
+          "target": "c9cf6d2faa084609901ebbd6ef8ec5cf",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "14ffe42b8acd40b39bd39ab021cd03f1",
+          "edgeType": "Edge",
+          "source": "c9cf6d2faa084609901ebbd6ef8ec5cf",
+          "target": "7321bc5f9d80489a8c0f2533c5138ed6",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f36e9ea8de684a71afb8fe80eb9e585b",
+          "edgeType": "Branch",
+          "source": "7321bc5f9d80489a8c0f2533c5138ed6",
+          "target": "fe3f0320fee54cf5a67b11a0e076d46b",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": "(function execute() {\n  return vaVars.watson_intent != 'Goodbye';\n})()",
+          "label": "Keep Asking"
+        },
+        {
+          "id": "0a8c110dbb534cde936b56883bff5837",
+          "edgeType": "Branch",
+          "source": "7321bc5f9d80489a8c0f2533c5138ed6",
+          "target": "bb574edc6605462f8b65991724e5c3d5",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": "(function execute() {\n  return vaVars.watson_intent == 'Goodbye';\n})()",
+          "label": "End Conversation"
+        },
+        {
+          "id": "c1cd718669dd4c6cbdff6460c9c6700b",
+          "edgeType": "Edge",
+          "source": "bb574edc6605462f8b65991724e5c3d5",
+          "target": "e541d0d4e644424d818f0334ed25874b",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "caf28346a47d459b945fbd33982b09b4": {
+      "id": "caf28346a47d459b945fbd33982b09b4",
+      "name": "greeting",
+      "label": "Greeting",
+      "varType": "string"
+    },
+    "1a103b2a43d0437a82b375f7f2e8f57b": {
+      "id": "1a103b2a43d0437a82b375f7f2e8f57b",
+      "value": {
+        "mode": "script",
+        "value": "(function execute() {\n  return gs.getUser().getFirstName();\n})()\n"
+      },
+      "name": "first_name",
+      "label": "first_name",
+      "varType": "script"
+    },
+    "42dcd976a0ef4ad99bc7ef962b8c2cb6": {
+      "id": "42dcd976a0ef4ad99bc7ef962b8c2cb6",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "language",
+      "label": "language",
+      "varType": "script"
+    },
+    "a88fde9f294a4542834aa1625faff093": {
+      "id": "a88fde9f294a4542834aa1625faff093",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "is_english",
+      "label": "is_english",
+      "varType": "script"
+    },
+    "655826104ed440559ad3ce406c38af6f": {
+      "id": "655826104ed440559ad3ce406c38af6f",
+      "value": {
+        "mode": "simple",
+        "value": "We detected English isn't your primary language being used, we will kindly forward to you representative who can assist you."
+      },
+      "name": "transfer_msg",
+      "label": "transfer_msg",
+      "varType": "script"
+    },
+    "14458eb7d569443080c3849a1ade7015": {
+      "id": "14458eb7d569443080c3849a1ade7015",
+      "value": {
+        "mode": "simple",
+        "value": "One moment, while we transfer you to our booking assistant."
+      },
+      "name": "english_transfer",
+      "label": "english_transfer",
+      "varType": "script"
+    },
+    "b629bd3f8b4649f68b418a7c8ccdaf40": {
+      "id": "b629bd3f8b4649f68b418a7c8ccdaf40",
+      "name": "talk",
+      "label": "Talk",
+      "varType": "string"
+    },
+    "26eaa13aac614c9fb68b03885040aba9": {
+      "id": "26eaa13aac614c9fb68b03885040aba9",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "watson_response",
+      "label": "watson_response",
+      "varType": "script"
+    },
+    "41dd8106b34b490cb11623308eb355b7": {
+      "id": "41dd8106b34b490cb11623308eb355b7",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "watson_context",
+      "label": "watson_context",
+      "varType": "script"
+    },
+    "cd19cb88de4748e390b3079fa2381822": {
+      "id": "cd19cb88de4748e390b3079fa2381822",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "watson_input",
+      "label": "watson_input",
+      "varType": "script"
+    },
+    "f70d3cc5e8af40409fc8de2ba9f9d4ee": {
+      "id": "f70d3cc5e8af40409fc8de2ba9f9d4ee",
+      "value": {
+        "mode": "simple",
+        "value": "false"
+      },
+      "name": "watson_intent",
+      "label": "watson_intent",
+      "varType": "script"
+    }
+  }
+}</graph><key_phrases>Watson Integration,IBM Watson,Language Translator,Watson Assistant</key_phrases><live_agent>false</live_agent><name>Watson Integration</name><roles/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>steven.gregory</sys_created_by><sys_created_on>2019-03-29 22:38:49</sys_created_on><sys_domain>global</sys_domain><sys_id>cadee438dbecff0057a7f03d0f9619a2</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Watson Integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_cb_topic_cadee438dbecff0057a7f03d0f9619a2</sys_update_name><sys_updated_by>steven.gregory</sys_updated_by><sys_updated_on>2019-03-30 00:17:00</sys_updated_on><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=cadee438dbecff0057a7f03d0f9619a2"/></record_update>]]></payload>
+<payload_hash>-1735225375</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>50960978db20334057a7f03d0f9619dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cbf4ece00000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name>Watson Integration</target_name>
+<type>Topic</type>
+<update_domain>global</update_domain>
+<update_guid>d055c9f0b22033408a81468966c4c94e</update_guid>
+<update_guid_history>d055c9f0b22033408a81468966c4c94e:-1735225375,0b2670787eecff00fb5fbba42d6087cb:-1376564262,73d1f4b0c2ecff00aba80013d50ac3d9:1126599893,9edee438ddecff00da053ad78cbb22c3:1819932665</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_f1ec74b0db20334057a7f03d0f9619df</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description/><name>IBM Watson Identify Language</name><oauth2_profile/><protocol_name/><rest_endpoint>https://gateway.watsonplatform.net/language-translator/api/v3/identify?version=2018-05-01</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>steven.gregory</sys_created_by><sys_created_on>2019-03-29 23:40:41</sys_created_on><sys_id>f1ec74b0db20334057a7f03d0f9619df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IBM Watson Identify Language</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_f1ec74b0db20334057a7f03d0f9619df</sys_update_name><sys_updated_by>steven.gregory</sys_updated_by><sys_updated_on>2019-03-29 23:40:41</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+<payload_hash>-1104213079</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>50960978db20334057a7f03d0f9619de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cbd3af990000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name>IBM Watson Identify Language</target_name>
+<type>REST Message</type>
+<update_domain>global</update_domain>
+<update_guid>e00df4b0c7203340b1e3196c9d62d10d</update_guid>
+<update_guid_history>e00df4b0c7203340b1e3196c9d62d10d:-1104213079</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_b35ef8f0db20334057a7f03d0f9619b2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Accept</name><rest_message_function display_value="">bf5ef8f0db20334057a7f03d0f9619ad</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>steven.gregory</sys_created_by><sys_created_on>2019-03-29 23:47:33</sys_created_on><sys_id>b35ef8f0db20334057a7f03d0f9619b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Accept</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_headers_b35ef8f0db20334057a7f03d0f9619b2</sys_update_name><sys_updated_by>steven.gregory</sys_updated_by><sys_updated_on>2019-03-29 23:47:33</sys_updated_on><value>application/json</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>1170754847</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>54960978db20334057a7f03d0f9619e0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cbd9f87d0000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name>Accept</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>099ebcf05a2033403fee54bc51f8ceb6</update_guid>
+<update_guid_history>099ebcf05a2033403fee54bc51f8ceb6:1170754847</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_726d7cb0db20334057a7f03d0f961948</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Accept</name><rest_message_function display_value="Identify">b34db8b0db20334057a7f03d0f9619c5</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>steven.gregory</sys_created_by><sys_created_on>2019-03-29 23:43:12</sys_created_on><sys_id>726d7cb0db20334057a7f03d0f961948</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Accept</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_headers_726d7cb0db20334057a7f03d0f961948</sys_update_name><sys_updated_by>steven.gregory</sys_updated_by><sys_updated_on>2019-03-29 23:43:12</sys_updated_on><value>application/json</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>-2007113745</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>58960978db20334057a7f03d0f9619df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cbd5fba00000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name>Accept</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>199dbcb06c20334009151fae57ea57bd</update_guid>
+<update_guid_history>199dbcb06c20334009151fae57ea57bd:-2007113745</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_bf5ef8f0db20334057a7f03d0f9619ad</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user>steven.gregory</basic_auth_user><content>{&#13;
+  "text": "${text}", &#13;
+  "model_id": "${model_id}"&#13;
+}</content><function_name>Translate</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>IBM Watson Language Translator [ Translate ]</qualified_name><rest_endpoint>https://gateway.watsonplatform.net/language-translator/api/v3/translate?version=2018-05-01</rest_endpoint><rest_message display_value="IBM Watson Language Translator">1aa7b4bcdbecff0057a7f03d0f961927</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>steven.gregory</sys_created_by><sys_created_on>2019-03-29 23:47:33</sys_created_on><sys_id>bf5ef8f0db20334057a7f03d0f9619ad</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Translate</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_bf5ef8f0db20334057a7f03d0f9619ad</sys_update_name><sys_updated_by>steven.gregory</sys_updated_by><sys_updated_on>2019-03-29 23:47:47</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-693743407</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>5c960978db20334057a7f03d0f9619de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cbda2f650000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name>Translate</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>60aefcf0cf203340af59d6eda218b652</update_guid>
+<update_guid_history>60aefcf0cf203340af59d6eda218b652:-693743407,499ebcf05720334028612c80fbe54fb9:1871471075</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_967dbcb0db20334057a7f03d0f9619ba</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Content-Type</name><rest_message_function display_value="Identify">b34db8b0db20334057a7f03d0f9619c5</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>steven.gregory</sys_created_by><sys_created_on>2019-03-29 23:43:12</sys_created_on><sys_id>967dbcb0db20334057a7f03d0f9619ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Content-Type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_headers_967dbcb0db20334057a7f03d0f9619ba</sys_update_name><sys_updated_by>steven.gregory</sys_updated_by><sys_updated_on>2019-03-29 23:43:12</sys_updated_on><value>text/plain</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>-171215088</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>90960978db20334057a7f03d0f9619e0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cbd5fbc80000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name>Content-Type</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>dd9d30f0ab203340bf33ece64e99c065</update_guid>
+<update_guid_history>dd9d30f0ab203340bf33ece64e99c065:-171215088</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_5a6e3cf0db20334057a7f03d0f961960</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Content-Type</name><rest_message_function display_value="">bf5ef8f0db20334057a7f03d0f9619ad</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>steven.gregory</sys_created_by><sys_created_on>2019-03-29 23:47:33</sys_created_on><sys_id>5a6e3cf0db20334057a7f03d0f961960</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Content-Type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_headers_5a6e3cf0db20334057a7f03d0f961960</sys_update_name><sys_updated_by>steven.gregory</sys_updated_by><sys_updated_on>2019-03-29 23:47:33</sys_updated_on><value>application/json</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>-730932449</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>94960978db20334057a7f03d0f9619df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cbd9f8a10000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name>Content-Type</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>019ebcf0cd203340711b7cec224229b8</update_guid>
+<update_guid_history>019ebcf0cd203340711b7cec224229b8:-730932449</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_b34db8b0db20334057a7f03d0f9619c5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user>steven.gregory</basic_auth_user><content>{&#13;
+  "text": ${text}&#13;
+}</content><function_name>Identify</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>IBM Watson Identify Language [ Identify ]</qualified_name><rest_endpoint>https://gateway.watsonplatform.net/language-translator/api/v3/identify?version=2018-05-01</rest_endpoint><rest_message display_value="IBM Watson Identify Language">f1ec74b0db20334057a7f03d0f9619df</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>steven.gregory</sys_created_by><sys_created_on>2019-03-29 23:42:20</sys_created_on><sys_id>b34db8b0db20334057a7f03d0f9619c5</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Identify</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_b34db8b0db20334057a7f03d0f9619c5</sys_update_name><sys_updated_by>steven.gregory</sys_updated_by><sys_updated_on>2019-03-29 23:43:12</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-1512656399</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>98960978db20334057a7f03d0f9619de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cbd5fbfa0000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name>Identify</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>d19d30f06a2033403d88326aa25b5f68</update_guid>
+<update_guid_history>d19d30f06a2033403d88326aa25b5f68:-1512656399,a46df8b0f1203340b0523f1bf4f20086:804447566</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_67d834fcdbecff0057a7f03d0f961946</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description/><name>IBM Watson Assistant</name><oauth2_profile/><protocol_name/><rest_endpoint>https://gateway-wdc.watsonplatform.net/assistant/api</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>steven.gregory</sys_created_by><sys_created_on>2019-03-29 23:23:01</sys_created_on><sys_id>67d834fcdbecff0057a7f03d0f961946</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IBM Watson Assistant</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_67d834fcdbecff0057a7f03d0f961946</sys_update_name><sys_updated_by>steven.gregory</sys_updated_by><sys_updated_on>2019-03-29 23:23:01</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+<payload_hash>490975641</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>9c960978db20334057a7f03d0f9619dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cbc383510000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name>IBM Watson Assistant</target_name>
+<type>REST Message</type>
+<update_domain>global</update_domain>
+<update_guid>f5f834fc4decff00c112212a7d7b0618</update_guid>
+<update_guid_history>f5f834fc4decff00c112212a7d7b0618:490975641</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_f9f834fcdbecff0057a7f03d0f961916</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>IBM Watson Assistant [ Default GET ]</qualified_name><rest_endpoint>https://gateway-wdc.watsonplatform.net/assistant/api</rest_endpoint><rest_message display_value="IBM Watson Assistant">67d834fcdbecff0057a7f03d0f961946</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>steven.gregory</sys_created_by><sys_created_on>2019-03-29 23:23:01</sys_created_on><sys_id>f9f834fcdbecff0057a7f03d0f961916</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_f9f834fcdbecff0057a7f03d0f961916</sys_update_name><sys_updated_by>steven.gregory</sys_updated_by><sys_updated_on>2019-03-29 23:23:01</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>73919449</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>d0960978db20334057a7f03d0f9619df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cbc383400000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name>Default GET</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>39f834fc51ecff00523d64336cb45017</update_guid>
+<update_guid_history>39f834fc51ecff00523d64336cb45017:73919449</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_6fb7b4bcdbecff0057a7f03d0f9619e1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>IBM Watson Language Translator [ Default GET ]</qualified_name><rest_endpoint>https://gateway.watsonplatform.net/language-translator/api/v3/translate?version=2018-05-01</rest_endpoint><rest_message display_value="IBM Watson Language Translator">1aa7b4bcdbecff0057a7f03d0f961927</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>steven.gregory</sys_created_by><sys_created_on>2019-03-29 23:17:41</sys_created_on><sys_id>6fb7b4bcdbecff0057a7f03d0f9619e1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_6fb7b4bcdbecff0057a7f03d0f9619e1</sys_update_name><sys_updated_by>steven.gregory</sys_updated_by><sys_updated_on>2019-03-29 23:17:41</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>1548426340</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>d4960978db20334057a7f03d0f9619de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cbbea0410000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name>Default GET</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>abb7b4bcc9ecff00e6da40a376a6fce2</update_guid>
+<update_guid_history>abb7b4bcc9ecff00e6da40a376a6fce2:1548426340</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_1aa7b4bcdbecff0057a7f03d0f961927</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description/><name>IBM Watson Language Translator</name><oauth2_profile/><protocol_name/><rest_endpoint>https://gateway.watsonplatform.net/language-translator/api/v3/translate?version=2018-05-01</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>steven.gregory</sys_created_by><sys_created_on>2019-03-29 23:17:41</sys_created_on><sys_id>1aa7b4bcdbecff0057a7f03d0f961927</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IBM Watson Language Translator</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_1aa7b4bcdbecff0057a7f03d0f961927</sys_update_name><sys_updated_by>steven.gregory</sys_updated_by><sys_updated_on>2019-03-29 23:17:41</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+<payload_hash>26458533</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>d8960978db20334057a7f03d0f9619dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cbbea0630000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name>IBM Watson Language Translator</target_name>
+<type>REST Message</type>
+<update_domain>global</update_domain>
+<update_guid>27b7f4bc9decff00a7ae9d16ce274e85</update_guid>
+<update_guid_history>27b7f4bc9decff00a7ae9d16ce274e85:26458533</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>topic_variable_0adee438dbecff0057a7f03d0f9619a3</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="topic_variable"&gt;&lt;topic_variable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;user&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;User&lt;/label&gt;&lt;limit/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Watson Integration"&gt;cadee438dbecff0057a7f03d0f9619a2&lt;/model&gt;&lt;model_id&gt;cadee438dbecff0057a7f03d0f9619a2&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_topic_variable_cadee438dbecff0057a7f03d0f9619a2&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;query_parameters/&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;topic_variable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;steven.gregory&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-03-29 22:38:49&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;0adee438dbecff0057a7f03d0f9619a3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_topic_variable_cadee438dbecff0057a7f03d0f9619a2&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;topic_variable_0adee438dbecff0057a7f03d0f9619a3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;steven.gregory&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-03-29 22:38:49&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/topic_variable&gt;&lt;sys_element_mapping action="delete_multiple" query="id=0adee438dbecff0057a7f03d0f9619a3"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1193796563</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>d8960978db20334057a7f03d0f9619e0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cb9b0c170000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name/>
+<type>Variables</type>
+<update_domain>global</update_domain>
+<update_guid>5edee43842ecff00aedf449cb8e59cb4</update_guid>
+<update_guid_history>5edee43842ecff00aedf449cb8e59cb4:-1193796563,dedee438b8ecff0069469666e0fc63b0:673879522,dadee438b8ecff00477cb9c12caf43ac:-1193796563</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_84004174db20334057a7f03d0f9619e0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Content-Type</name><rest_message_function display_value="Assistant">30bf3c34db20334057a7f03d0f9619a8</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>steven.gregory</sys_created_by><sys_created_on>2019-03-29 23:54:23</sys_created_on><sys_id>84004174db20334057a7f03d0f9619e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Content-Type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_headers_84004174db20334057a7f03d0f9619e0</sys_update_name><sys_updated_by>steven.gregory</sys_updated_by><sys_updated_on>2019-03-29 23:54:23</sys_updated_on><value>application/json</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>1666015675</payload_hash>
+<remote_update_set display_value="Watson Integration">5c960978db20334057a7f03d0f9619dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>steven.gregory</sys_created_by>
+<sys_created_on>2019-03-30 00:22:27</sys_created_on>
+<sys_id>dc960978db20334057a7f03d0f9619df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169cbe03a2d0000001</sys_recorded_at>
+<sys_updated_by>steven.gregory</sys_updated_by>
+<sys_updated_on>2019-03-30 00:22:27</sys_updated_on>
+<table/>
+<target_name>Content-Type</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>49208174d5203340a0743541dedb7ea0</update_guid>
+<update_guid_history>49208174d5203340a0743541dedb7ea0:1666015675</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
