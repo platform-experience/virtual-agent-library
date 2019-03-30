@@ -18,7 +18,7 @@ Download and install update set **[va-watson-integration.u-update-set.xml](https
 
 Required plugins: Glide Virtual Agent, Virtual Agent Designer.
 
-After installation, the topic can be accessed via the `Virtual Agent > Designer` section for use and customization.
+After installation, the `Watson Integration` topic can be accessed via the `Virtual Agent > Designer` section for use and customization.
 
 - SN Product Documentation - ['Load a customization from a single XML file'](https://docs.servicenow.com/bundle/kingston-application-development/page/build/system-update-sets/task/t_SaveAnUpdateSetAsAnXMLFile.html)
 
