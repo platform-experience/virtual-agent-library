@@ -10,7 +10,9 @@ A Virtual Agent conversation centered around an [IBM Watson](https://www.ibm.com
 
 ## Additional Information/Notes
 
-The topic starts off with a greeting and then Watson uses the Language Identification API to detect the language of the user. The API supports the ability to identify up to 62 languages; [C-3PO](https://en.wikipedia.org/wiki/C-3PO) style. If English is not detected, Watson uses the [Language Translator](https://www.ibm.com/watson/services/language-translator/) to respond in the language of the user and hands them off to a representative to end the conversation. The other route is, English is detected from the user and a [Watson Assistant](https://www.ibm.com/cloud/watson-assistant/) dialog is activated. The assistant engages the user on a Customer Service sample skill around booking an appointment and offering store information. The conversation ends upon the user successfully booking an appointment with a date and phone number confirmation.
+The topic starts off with a greeting and then Watson uses the Language Identification API to detect the language of the user. The API supports the ability to identify up to 62 languages; [C-3PO](https://en.wikipedia.org/wiki/C-3PO) style. If English is not detected, Watson uses the [Language Translator](https://www.ibm.com/watson/services/language-translator/) to respond in the language of the user and hands them off to a representative to end the conversation.
+
+The other route is, English is detected from the user and a [Watson Assistant](https://www.ibm.com/cloud/watson-assistant/) dialog is activated. The assistant engages the user on a Customer Service sample skill around booking an appointment and offering store information. The conversation ends upon the user successfully booking an appointment with a date and phone number confirmation.
 
 ## Installation
 
@@ -20,8 +22,10 @@ Required plugins: Glide Virtual Agent, Virtual Agent Designer.
 
 After installation, the `Watson Integration` topic can be accessed via the `Virtual Agent > Designer` section for use and customization.
 
-- SN Product Documentation - ['Load a customization from a single XML file'](https://docs.servicenow.com/bundle/kingston-application-development/page/build/system-update-sets/task/t_SaveAnUpdateSetAsAnXMLFile.html)
+- SN Product Documentation - ['Load a customization from a single XML file'](https://docs.servicenow.com/bundle/madrid-application-development/page/build/system-update-sets/task/t_SaveAnUpdateSetAsAnXMLFile.html)
 
 ## Configuration
 
-Create an [IBM Cloud account](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/signup-wdp.html) to get started. After that, create a service for both the Language Translator & Watson Assistant. From there you will need to fetch the API Key and URL that can be plugged into the REST API of the Virtual Agent for customization. The update set doesn't include the basic auth profile for the three REST messages (IBM Watson Identify Language, IBM Watson Language Translator, IBM Watson Assistant); those will need to be added with _apikey_ as the username and the actual API Key as the password from the corresponding Watson service.
+Sign up for an [IBM Cloud account](https://dataplatform.cloud.ibm.com/registration/stepone) or simply log in. After that, create a service for both the [Language Translator](https://www.ibm.com/watson/services/language-translator/) & [Watson Assistant](https://www.ibm.com/cloud/watson-assistant/). Get the API Key for both services for authentication in your ServiceNow instance.
+
+In your instance, add a basic auth profile to the REST Messages provided in the update set: _IBM Watson Identify Language_, _IBM Watson Language Translator_ and _IBM Watson Assistant_. For each auth profile, add _apikey_ as the username and the actual API Key as the password.
