@@ -2,7 +2,7 @@
 
 ## Description
 
-> None
+> A Virtual Agent conversation to view attestations assigned to you. You can view attestations due that day, week, or all. You have the choice of viewing a guide on how to take an assessment or a link to view the attestation record itself.
 
 ## Screenshot
 
