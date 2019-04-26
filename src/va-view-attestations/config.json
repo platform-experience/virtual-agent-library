@@ -1,0 +1,20 @@
+{
+  "active": true,
+  "category": "General",
+  "common-name": "View Attestations",
+  "compatibility": [
+    "Madrid"
+  ],
+  "contributors": [
+    "Innovation Factory"
+  ],
+  "keywords": [
+    "va",
+    "virtual agent"
+  ],
+  "name": "va-view-attestations",
+  "publishing-goal": "Update set",
+  "solution-details": "",
+  "type": "Virtual Agent",
+  "version": "1.0.0"
+}
