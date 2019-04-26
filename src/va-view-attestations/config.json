@@ -6,15 +6,16 @@
     "Madrid"
   ],
   "contributors": [
-    "Innovation Factory"
+    "Brian Clauzel"
   ],
   "keywords": [
     "va",
-    "virtual agent"
+    "virtual agent",
+    "GRC"
   ],
   "name": "va-view-attestations",
   "publishing-goal": "Update set",
-  "solution-details": "",
+  "solution-details": "A Virtual Agent conversation to view attestations assigned to you.",
   "type": "Virtual Agent",
   "version": "1.0.0"
 }
