@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-10-02 01:21:53">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Software Assist">e31f3668db1c0c10b158a2b444961942</application>
+<application_name>Software Assist</application_name>
+<application_scope>x_snc_stwa</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description> </description>
+<inserted/>
+<name>Software Assist</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>8fdb0328db5c0c10b158a2b444961970</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>james.tandy@snc</sys_created_by>
+<sys_created_on>2019-10-02 01:21:53</sys_created_on>
+<sys_id>dceb4328db5c0c10b158a2b444961912</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>james.tandy@snc</sys_updated_by>
+<sys_updated_on>2019-10-02 01:21:53</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Software Assist">e31f3668db1c0c10b158a2b444961942</application>
+<category>customer</category>
+<comments/>
+<name>topic_variable_c7af7ea8db1c0c10b158a2b4449619e7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="topic_variable"&gt;&lt;topic_variable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;User&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;user&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;User&lt;/label&gt;&lt;limit/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Software assistance"&gt;cbaf7ea8db1c0c10b158a2b4449619e5&lt;/model&gt;&lt;model_id&gt;cbaf7ea8db1c0c10b158a2b4449619e5&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_topic_variable_cbaf7ea8db1c0c10b158a2b4449619e5&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;query_parameters/&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;topic_variable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;james.tandy@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-02 00:28:33&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;c7af7ea8db1c0c10b158a2b4449619e7&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;User&lt;/sys_name&gt;&lt;sys_package display_value="Software Assist" source="x_snc_stwa"&gt;e31f3668db1c0c10b158a2b444961942&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Software Assist"&gt;e31f3668db1c0c10b158a2b444961942&lt;/sys_scope&gt;&lt;sys_update_name&gt;topic_variable_c7af7ea8db1c0c10b158a2b4449619e7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;james.tandy@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-02 00:28:33&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/topic_variable&gt;&lt;sys_element_mapping action="delete_multiple" query="id=c7af7ea8db1c0c10b158a2b4449619e7"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1358453766</payload_hash>
+<remote_update_set display_value="Software Assist">dceb4328db5c0c10b158a2b444961912</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>james.tandy@snc</sys_created_by>
+<sys_created_on>2019-10-02 01:21:53</sys_created_on>
+<sys_id>18eb4328db5c0c10b158a2b444961914</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d8a0f188a0000001</sys_recorded_at>
+<sys_updated_by>james.tandy@snc</sys_updated_by>
+<sys_updated_on>2019-10-02 01:21:53</sys_updated_on>
+<table/>
+<target_name>User</target_name>
+<type>Variables</type>
+<update_domain>global</update_domain>
+<update_guid>07affae85f1c0c1064ee457f3f80bf28</update_guid>
+<update_guid_history>07affae85f1c0c1064ee457f3f80bf28:-1592358958,c7affae8911c0c1052ff78ed56f8f724:1358453766,0baffae8531c0c10de83cc76f4cb721f:-1592358958</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Software Assist">e31f3668db1c0c10b158a2b444961942</application>
+<category>customer</category>
+<comments/>
+<name>sys_package_dependency_m2m_08364f60db5c0c10b158a2b444961959</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m"><sys_package_dependency_m2m action="INSERT_OR_UPDATE"><dependency display_value="Glide Virtual Agent" source="com.glide.cs.chatbot">cf119c02db87f3003390468b3a9619b2</dependency><min_version>1.0.0</min_version><sys_created_by>james.tandy@snc</sys_created_by><sys_created_on>2019-10-02 00:57:01</sys_created_on><sys_id>08364f60db5c0c10b158a2b444961959</sys_id><sys_mod_count>0</sys_mod_count><sys_package display_value="Software Assist" source="x_snc_stwa">e31f3668db1c0c10b158a2b444961942</sys_package><sys_updated_by>james.tandy@snc</sys_updated_by><sys_updated_on>2019-10-02 00:57:01</sys_updated_on></sys_package_dependency_m2m></record_update>]]></payload>
+<payload_hash>2122255130</payload_hash>
+<remote_update_set display_value="Software Assist">dceb4328db5c0c10b158a2b444961912</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>james.tandy@snc</sys_created_by>
+<sys_created_on>2019-10-02 01:21:53</sys_created_on>
+<sys_id>1ceb4328db5c0c10b158a2b444961913</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d8a0f184a0000001</sys_recorded_at>
+<sys_updated_by>james.tandy@snc</sys_updated_by>
+<sys_updated_on>2019-10-02 01:21:53</sys_updated_on>
+<table/>
+<target_name>Software Assist.Glide Virtual Agent</target_name>
+<type>Package dependency</type>
+<update_domain>global</update_domain>
+<update_guid>c7dbcfe45f5c0c102c98043dc4cd0de2</update_guid>
+<update_guid_history>c7dbcfe45f5c0c102c98043dc4cd0de2:2122255130,7f464ba0af5c0c1038934c93300135c8:2122255130</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Software Assist">e31f3668db1c0c10b158a2b444961942</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_920b83e4db5c0c10b158a2b4449619ef</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_snc_stwa.SaVaHelper&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;SaVaHelper&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var SaVaHelper = Class.create();
+SaVaHelper.prototype = {
+    initialize: function() {
+    },
+	
+	getFormattedInstructions: function(label, lines, startIdx) {
+		if (!lines || !lines.length)
+			return '';
+
+		startIdx = !startIdx ? 0 : startIdx
+		var listItems = lines.map(function(l, idx) {
+			return '&lt;div&gt;' + (idx+1+startIdx) + ') ' + l + '&lt;/div&gt;';
+		}).join('');
+
+		return '&lt;div&gt;' +
+				'&lt;strong&gt;' + label  + '&lt;/strong&gt;' +
+				'&lt;div&gt;' + listItems + '&lt;/div&gt;' +
+			'&lt;/div&gt;';
+	},
+	
+	formatKBSearchResult: function(baseURL, kb, snippetMaxLength) {
+		snippetMaxLength = !snippetMaxLength ? 200 : snippetMaxLength;
+		var link = baseURL + '?id=kb_article&amp;sys_id=' + kb.id.split(':')[1];
+		var title = kb.title;
+		var snippet = kb.snippet.substring(0, snippetMaxLength) + '...';
+
+		return '&lt;div&gt;' +
+				'&lt;a href="' + link + '" target="_blank"&gt;' +
+					'&lt;strong&gt;' + title + '&lt;/strong&gt;' +
+				'&lt;/a&gt;' +
+				'&lt;div&gt;' + snippet + '&lt;/div&gt;' +
+			'&lt;/div&gt;';
+	},
+
+    type: 'SaVaHelper'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;james.tandy@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-02 01:19:05&lt;/sys_created_on&gt;&lt;sys_id&gt;920b83e4db5c0c10b158a2b4449619ef&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;SaVaHelper&lt;/sys_name&gt;&lt;sys_package display_value="Software Assist" source="x_snc_stwa"&gt;e31f3668db1c0c10b158a2b444961942&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Software Assist"&gt;e31f3668db1c0c10b158a2b444961942&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_920b83e4db5c0c10b158a2b4449619ef&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;james.tandy@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-02 01:19:05&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-868418947</payload_hash>
+<remote_update_set display_value="Software Assist">dceb4328db5c0c10b158a2b444961912</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>james.tandy@snc</sys_created_by>
+<sys_created_on>2019-10-02 01:21:53</sys_created_on>
+<sys_id>54eb4328db5c0c10b158a2b444961914</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d8a0f189f0000001</sys_recorded_at>
+<sys_updated_by>james.tandy@snc</sys_updated_by>
+<sys_updated_on>2019-10-02 01:21:53</sys_updated_on>
+<table/>
+<target_name>SaVaHelper</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>db3b87e43d5c0c108d599de57fc98725</update_guid>
+<update_guid_history>db3b87e43d5c0c108d599de57fc98725:-868418947</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Software Assist">e31f3668db1c0c10b158a2b444961942</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_var__m_topic_variable_cbaf7ea8db1c0c10b158a2b4449619e5_user_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="user" label="User" language="en" table="var__m_topic_variable_cbaf7ea8db1c0c10b158a2b4449619e5"><sys_documentation action="INSERT_OR_UPDATE"><element>user</element><help/><hint/><label>User</label><language>en</language><name>var__m_topic_variable_cbaf7ea8db1c0c10b158a2b4449619e5</name><plural>User</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>james.tandy@snc</sys_created_by><sys_created_on>2019-10-02 00:28:33</sys_created_on><sys_id>43affae8db1c0c10b158a2b44496191a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User</sys_name><sys_package display_value="Software Assist" source="x_snc_stwa">e31f3668db1c0c10b158a2b444961942</sys_package><sys_policy/><sys_scope display_value="Software Assist">e31f3668db1c0c10b158a2b444961942</sys_scope><sys_update_name>sys_documentation_var__m_topic_variable_cbaf7ea8db1c0c10b158a2b4449619e5_user_en</sys_update_name><sys_updated_by>james.tandy@snc</sys_updated_by><sys_updated_on>2019-10-02 00:28:33</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2093593490</payload_hash>
+<remote_update_set display_value="Software Assist">dceb4328db5c0c10b158a2b444961912</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>james.tandy@snc</sys_created_by>
+<sys_created_on>2019-10-02 01:21:53</sys_created_on>
+<sys_id>58eb4328db5c0c10b158a2b444961913</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d8a0f186d0000001</sys_recorded_at>
+<sys_updated_by>james.tandy@snc</sys_updated_by>
+<sys_updated_on>2019-10-02 01:21:53</sys_updated_on>
+<table>var__m_topic_variable_cbaf7ea8db1c0c10b158a2b4449619e5</table>
+<target_name>.User</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>83affae88b1c0c1006ea69e818afd226</update_guid>
+<update_guid_history>83affae88b1c0c1006ea69e818afd226:-2093593490</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Software Assist">e31f3668db1c0c10b158a2b444961942</application>
+<category>customer</category>
+<comments/>
+<name>sys_package_dependency_m2m_c8364f60db5c0c10b158a2b444961959</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m"><sys_package_dependency_m2m action="INSERT_OR_UPDATE"><dependency display_value="ITSM Virtual Agent Conversations" source="com.snc.itsm.virtualagent">8d8198c2db87f3003390468b3a9619c7</dependency><min_version>1.3.6</min_version><sys_created_by>james.tandy@snc</sys_created_by><sys_created_on>2019-10-02 00:57:01</sys_created_on><sys_id>c8364f60db5c0c10b158a2b444961959</sys_id><sys_mod_count>0</sys_mod_count><sys_package display_value="Software Assist" source="x_snc_stwa">e31f3668db1c0c10b158a2b444961942</sys_package><sys_updated_by>james.tandy@snc</sys_updated_by><sys_updated_on>2019-10-02 00:57:01</sys_updated_on></sys_package_dependency_m2m></record_update>]]></payload>
+<payload_hash>607955884</payload_hash>
+<remote_update_set display_value="Software Assist">dceb4328db5c0c10b158a2b444961912</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>james.tandy@snc</sys_created_by>
+<sys_created_on>2019-10-02 01:21:53</sys_created_on>
+<sys_id>90eb4328db5c0c10b158a2b444961914</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d8a0f18610000001</sys_recorded_at>
+<sys_updated_by>james.tandy@snc</sys_updated_by>
+<sys_updated_on>2019-10-02 01:21:53</sys_updated_on>
+<table/>
+<target_name>Software Assist.ITSM Virtual Agent Conversations</target_name>
+<type>Package dependency</type>
+<update_domain>global</update_domain>
+<update_guid>c3dbcfe4d45c0c107595ddcfe1a949e4</update_guid>
+<update_guid_history>c3dbcfe4d45c0c107595ddcfe1a949e4:607955884,ff464ba0b55c0c106f8bdebfdc91b4ca:607955884</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Software Assist">e31f3668db1c0c10b158a2b444961942</application>
+<category>customer</category>
+<comments/>
+<name>sys_cb_topic_cbaf7ea8db1c0c10b158a2b4449619e5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><category display_value="ITSM IT Issues">140e2eda0b203300a1b16c2367673af4</category><connect_queue/><description/><flexible_conversation_switching>true</flexible_conversation_switching><graph>{
+  "goals": {
+    "07f1a6f6bee24e8e8e6b0442f7fce087": {
+      "id": "07f1a6f6bee24e8e8e6b0442f7fce087",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "8131ddef60ff4e848eea20eba148513e": {
+          "id": "8131ddef60ff4e848eea20eba148513e",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "128250f711cf4c90852d7fcf690eee3c": {
+          "id": "128250f711cf4c90852d7fcf690eee3c",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "1a46bc59b186457c8cfbca1e1005d012": {
+          "id": "1a46bc59b186457c8cfbca1e1005d012",
+          "stepType": "Prompt",
+          "name": "Which Software",
+          "prompt": {
+            "value": "What program are you having the issue with?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": true,
+          "entity": "Software",
+          "variableId": "6799d3313a224438baed48024e3a9f48"
+        },
+        "63f54e829a2340e7bdd0b605355ce816": {
+          "id": "63f54e829a2340e7bdd0b605355ce816",
+          "stepType": "TextOutput",
+          "name": "Software acknowledgement ",
+          "value": {
+            "value": "Ok, give me a second to look up {{vaInputs.which_software}} in our list of software.",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "d17da793dbcf46059b6badf17b765e70": {
+          "id": "d17da793dbcf46059b6badf17b765e70",
+          "name": "Lookup software",
+          "script": "(function execute() {\n\n    var smGr = new GlideRecord('cmdb_software_product_model');\n    smGr.addQuery('status', 'In Production');\n    smGr.addQuery('display_name', 'CONTAINS', vaInputs.which_software);\n    smGr.query();\n    vaVars.lookup_rowcount = smGr.getRowCount();\n\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "40e55d21f966409faa1ff759c9583d42": {
+          "id": "40e55d21f966409faa1ff759c9583d42",
+          "stepType": "ScriptOutput",
+          "name": "Contextual search",
+          "output_type": "single_part",
+          "script": "(function execute() {\n    var search_term = vaInputs.which_software;\n    var context = '2821675a5b30130070e4492c11f91a89';\n\n    var contextualSearch = new sn_itsm_va.VAContextualSearchUtil();\n    var response = contextualSearch.search(context, search_term);\n\n    var success = contextualSearch.processSearchResponse(response);\n    if (!success) {\n        gs.info('VA test was unsuccessful');\n        vaVars.count = 0;\n        return '';\n    }\n\n    var relevantSearchResults = contextualSearch.processGeneralResults(response, vaVars.limit, 0);\n    vaVars.count = relevantSearchResults.length;\n    gs.info('VA test ' + JSON.stringify(relevantSearchResults));\n    if (vaVars.count == 0) {\n        return '';\n    }\n    vaVars.search_kb_json_string = JSON.stringify(relevantSearchResults);\n    return null;\n})()\n",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "81f13a6a8c8949038d492ee922b5b397": {
+          "id": "81f13a6a8c8949038d492ee922b5b397",
+          "stepType": "Decision",
+          "name": "Did we find KBs? Is this supported?"
+        },
+        "d8b402e3fe304a7aa326a3d569826cc6": {
+          "id": "d8b402e3fe304a7aa326a3d569826cc6",
+          "stepType": "TextOutput",
+          "name": "Transfer to live agent message",
+          "value": {
+            "value": "Ok, it looks like {{vaInputs.which_software}} is not on our supported software list and I couldn't find any Knowledge Articles on this so let me transfer you to a live agent to get immediate assistance.",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "6ce3dcdbd46b4764a3219bd671ddcf9e": {
+          "id": "6ce3dcdbd46b4764a3219bd671ddcf9e",
+          "stepType": "ScriptOutput",
+          "name": "Transfer to live agent",
+          "output_type": "single_part",
+          "script": "(function execute() {\n      vaSystem.connectToAgent();\n})()\n",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "ae774cf229764b1f9ddfa08ca2efe2a6": {
+          "id": "ae774cf229764b1f9ddfa08ca2efe2a6",
+          "stepType": "TextOutput",
+          "name": "Create ticket message",
+          "value": {
+            "value": "Ok, I couldn't find any Knowledge Articles on {{vaInputs.which_software}} so let me create an IT ticket for you to get some assistance.",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "676aabb69d3c44e2b68d981574a12123": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "Urgency",
+          "prompt": {
+            "value": "What's the urgency of this issue?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "c02f2f4407c24b78b3400b5306187ab1",
+          "id": "676aabb69d3c44e2b68d981574a12123",
+          "mode": "external",
+          "script": "(function execute() {\n    var choices = new GlideChoiceList();\n    // Getting all the choices for urgency.\n    var choiceList = choices.getChoiceList('incident', 'urgency');\n    \n    var options = [];\n\n    for (var i=0; i &lt; choiceList.getSize(); i++) {\n        options.push({'value': choiceList.getChoice(i).getValue(), 'label': choiceList.getChoice(i).getLabel()});\n    }\n    \n    return options;    \n})()",
+          "noRecordsResponseMsg": {
+            "value": "Ok, got it.",
+            "mode": "simple"
+          },
+          "condition": {
+            "value": "(function execute() {\n    var choices = new GlideChoiceList();\n    // Getting all the choices for urgency.\n    var choiceList = choices.getChoiceList('incident', 'urgency');\n    \n    var options = [];\n\n    for (var i=0; i &lt; choiceList.getSize(); i++) {\n        options.push({'value': choiceList.getChoice(i).getValue(), 'label': choiceList.getChoice(i).getLabel()});\n    }\n    \n    return options;    \n})()",
+            "mode": "external_script"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
+        },
+        "04d221ac978d4e5999edfef9b741702f": {
+          "id": "04d221ac978d4e5999edfef9b741702f",
+          "stepType": "CrudAction",
+          "name": "Create Incident",
+          "template": "caller_id={{vaInputs.user}}^short_description=Need some help with {{vaInputs.which_software}}^urgency={{vaInputs.urgency}}^contact_type=virtual_agent",
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "f7b6b36625cf4907b7b4cdfab24a734e"
+        },
+        "b38eca767d344acfbb592e7fb2081444": {
+          "id": "b38eca767d344acfbb592e7fb2081444",
+          "stepType": "TextOutput",
+          "name": "Show KBs but unsupported message",
+          "value": {
+            "value": "Ok, {{vaInputs.which_software}} doesn't appear to be on our production software list but we can still help.  I was able to find these Knowledge Articles for {{vaInputs.which_software}}.",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "33e31a1400f44c04b7d1d622694c14dd": {
+          "id": "33e31a1400f44c04b7d1d622694c14dd",
+          "stepType": "ScriptOutput",
+          "name": "Display KB Results",
+          "output_type": "single_part",
+          "script": "(function execute() {\n      var kbs = JSON.parse(vaVars.search_kb_json_string);\n      var helper = new SaVaHelper();\n      var baseURL = gs.getProperty('glide.servlet.uri') + '/' + gs.getProperty('sn_itsm_va.com.snc.itsm.virtualagent.portal_url');\n\n      var items = kbs.map(function(kb) {\n            return helper.formatKBSearchResult(baseURL, kb);\n      }).join('&lt;br /&gt;');\n\n      var html =\n            '&lt;div&gt;' + items + '&lt;/div&gt;';\n      \n      return html;\n})()",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "da810b8c2ce742abbddd1d910f83eff1": {
+          "id": "da810b8c2ce742abbddd1d910f83eff1",
+          "stepType": "Prompt",
+          "name": "Was this helpful",
+          "prompt": {
+            "value": "Do any of these KBs resolve your issue?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "2b2ca154df0b4bd39c33f1293310de80"
+        },
+        "1f94feaebeea44209016f4675e9b6c3c": {
+          "id": "1f94feaebeea44209016f4675e9b6c3c",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "669b288a50d1423ebaf64e3f8deb31ff": {
+          "id": "669b288a50d1423ebaf64e3f8deb31ff",
+          "stepType": "TextOutput",
+          "name": "Show KBs and supported message",
+          "value": {
+            "value": "Ok, I've found some Knowledge Articles regarding {{vaInputs.which_software}}.",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "40b8abbd6eea41f8a4d5ec2f05c029cd": {
+          "id": "40b8abbd6eea41f8a4d5ec2f05c029cd",
+          "stepType": "TextOutput",
+          "name": "Transfer to live agent message",
+          "value": {
+            "value": "Ok, in that case, let me transfer you to a live agent to get immediate assistance.",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "d3b805daf60c4eb981d948472c46832e": {
+          "id": "d3b805daf60c4eb981d948472c46832e",
+          "stepType": "ScriptOutput",
+          "name": "Display KBs for supported software",
+          "output_type": "single_part",
+          "script": "(function execute() {\n      var kbs = JSON.parse(vaVars.search_kb_json_string);\n      var helper = new SaVaHelper();\n      var baseURL = gs.getProperty('glide.servlet.uri') + '/' + gs.getProperty('sn_itsm_va.com.snc.itsm.virtualagent.portal_url');\n\n      var items = kbs.map(function(kb) {\n            return helper.formatKBSearchResult(baseURL, kb);\n      }).join('&lt;br /&gt;');\n\n      var html =\n            '&lt;div&gt;'+ items +'&lt;/div&gt;';\n      \n      return html;\n})()",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "0614050584c2448c8808327f42ca66b1": {
+          "id": "0614050584c2448c8808327f42ca66b1",
+          "stepType": "Prompt",
+          "name": "Was this helpful - Supported",
+          "prompt": {
+            "value": "Do any of these KBs resolve your issue?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "a3e100d965d94d1b9efe7206490f7b47"
+        },
+        "983843ac6e9a49f2982add9a69d56b2c": {
+          "id": "983843ac6e9a49f2982add9a69d56b2c",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "21cfb2fe7b0e467ab29152045f0a8768": {
+          "id": "21cfb2fe7b0e467ab29152045f0a8768",
+          "stepType": "TextOutput",
+          "name": "Create ticket message - Supported",
+          "value": {
+            "value": "Ok, no problem. Let me create an IT ticket for you to get some assistance.",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "ed5463cd85e747dd9728d12c8fa5118f": {
+          "id": "ed5463cd85e747dd9728d12c8fa5118f",
+          "stepType": "CrudAction",
+          "name": "Create Incident - Supported",
+          "template": "caller_id={{vaInputs.user}}^short_description=Need help with {{vaInputs.which_software}}^urgency={{vaInputs.urgency_supported}}^contact_type=virtual_agent",
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "da49f19f47dd4bbfa67b550a252f615b"
+        },
+        "5b00c9411aa04132b1cc755d064668e6": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "Urgency - Supported",
+          "prompt": {
+            "value": "What's the urgency of this issue?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "05f548eb87a646d394d953523268ff7b",
+          "id": "5b00c9411aa04132b1cc755d064668e6",
+          "mode": "external",
+          "script": "(function execute() {\n    var choices = new GlideChoiceList();\n    // Getting all the choices for urgency.\n    var choiceList = choices.getChoiceList('incident', 'urgency');\n    \n    var options = [];\n\n    for (var i=0; i &lt; choiceList.getSize(); i++) {\n        options.push({'value': choiceList.getChoice(i).getValue(), 'label': choiceList.getChoice(i).getLabel()});\n    }\n    \n    return options;    \n})()",
+          "noRecordsResponseMsg": {
+            "value": "Ok, got it.",
+            "mode": "simple"
+          },
+          "condition": {
+            "value": "(function execute() {\n    var choices = new GlideChoiceList();\n    // Getting all the choices for urgency.\n    var choiceList = choices.getChoiceList('incident', 'urgency');\n    \n    var options = [];\n\n    for (var i=0; i &lt; choiceList.getSize(); i++) {\n        options.push({'value': choiceList.getChoice(i).getValue(), 'label': choiceList.getChoice(i).getLabel()});\n    }\n    \n    return options;    \n})()",
+            "mode": "external_script"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
+        },
+        "ef13ea68cda94b768b6cbee4c2033fc9": {
+          "id": "ef13ea68cda94b768b6cbee4c2033fc9",
+          "stepType": "TextOutput",
+          "name": "Acknowledgement",
+          "value": {
+            "value": "Alright, I've opened your incident and a technician will be assigned.",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "73d97a3cd88444aaa22d17c43bb79f16": {
+          "id": "73d97a3cd88444aaa22d17c43bb79f16",
+          "stepType": "RecordOutput",
+          "name": "Incident card",
+          "variableId": "f7b6b36625cf4907b7b4cdfab24a734e",
+          "mode": "variable",
+          "tableName": "incident",
+          "fields": [
+            "caller_id",
+            "short_description",
+            "urgency"
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "",
+            "value": ""
+          }
+        },
+        "eb3d89aa497b4746a6e92849117838d5": {
+          "id": "eb3d89aa497b4746a6e92849117838d5",
+          "stepType": "TextOutput",
+          "name": "Acknowledgement",
+          "value": {
+            "value": "Alright, I've opened your incident and a technician will be assigned.",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "9da2ac8d0d6846a7adf2e7b5d16a244c": {
+          "id": "9da2ac8d0d6846a7adf2e7b5d16a244c",
+          "stepType": "RecordOutput",
+          "name": "Incident card - Supported",
+          "variableId": "da49f19f47dd4bbfa67b550a252f615b",
+          "mode": "variable",
+          "tableName": "incident",
+          "fields": [
+            "caller_id",
+            "short_description",
+            "urgency"
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "",
+            "value": ""
+          }
+        },
+        "94293979582e400bbc86a6bc6fc14b26": {
+          "id": "94293979582e400bbc86a6bc6fc14b26",
+          "name": "Set Live Agent Short Description",
+          "script": "(function execute() {\n    vaVars.LiveAgent_short_description = 'I need help with ' + vaInputs.which_software;\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "7c5181f4e93a4f72814fabcb67f3e636": {
+          "id": "7c5181f4e93a4f72814fabcb67f3e636",
+          "stepType": "Decision",
+          "name": "Do we have a record of this software?"
+        },
+        "63f2705d73b8465388ec0c5673eb1fc4": {
+          "id": "63f2705d73b8465388ec0c5673eb1fc4",
+          "name": "Add software to cmdb",
+          "script": "(function execute() {\n    // Can be uncommented with the addition of Software Asset Management plugin\n    /*var csp = new GlideRecord('samp_custom_sw_product');\n    csp.initialize();\n    csp.setValue('manufacturer', '63a098dcdbd73300b158a2b4449619d6');\n    csp.setValue('prod_name', vaInputs.which_software);\n    csp.setValue('product_type', 'unknown');\n    var newCsp = csp.insert();\n\n    var sm = new GlideRecord('cmdb_software_product_model');\n    sm.initialize();\n    sm.setValue('manufacturer', '63a098dcdbd73300b158a2b4449619d6');\n    sm.setValue('product', newCsp);\n    sm.setValue('status', 'not_supported');\n    sm.insert();*/\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "b0396e01389d4d809def3871eae0ce02",
+          "edgeType": "Edge",
+          "source": "8131ddef60ff4e848eea20eba148513e",
+          "target": "1a46bc59b186457c8cfbca1e1005d012",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "16aa49e4ea6541d3ac7b27ddc7695858",
+          "edgeType": "Edge",
+          "source": "1a46bc59b186457c8cfbca1e1005d012",
+          "target": "63f54e829a2340e7bdd0b605355ce816",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "a8325ecd7eb040d1956a243da7815ee3",
+          "edgeType": "Edge",
+          "source": "40e55d21f966409faa1ff759c9583d42",
+          "target": "81f13a6a8c8949038d492ee922b5b397",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6164db9f17cf49faa5d4856a4aeb1d91",
+          "edgeType": "Branch",
+          "source": "81f13a6a8c8949038d492ee922b5b397",
+          "target": "d8b402e3fe304a7aa326a3d569826cc6",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return (parseInt(vaVars.count) == 0 &amp;&amp; vaVars.lookup_rowcount == 0);\n})()\n"
+          },
+          "label": "No results and unsupported"
+        },
+        {
+          "id": "4198f9549f534a29955ecebfc8c6ac6a",
+          "edgeType": "Edge",
+          "source": "d8b402e3fe304a7aa326a3d569826cc6",
+          "target": "6ce3dcdbd46b4764a3219bd671ddcf9e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "52b50753fd8245c7910e322ba5690e46",
+          "edgeType": "Edge",
+          "source": "6ce3dcdbd46b4764a3219bd671ddcf9e",
+          "target": "128250f711cf4c90852d7fcf690eee3c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "07674add66cb49238ab3fe97863081d0",
+          "edgeType": "Branch",
+          "source": "81f13a6a8c8949038d492ee922b5b397",
+          "target": "ae774cf229764b1f9ddfa08ca2efe2a6",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return (parseInt(vaVars.count) == 0 &amp;&amp; vaVars.lookup_rowcount &gt; 0);\n})()\n"
+          },
+          "label": "No result and supported"
+        },
+        {
+          "id": "9e7133cf94214a098168282ef478fcba",
+          "edgeType": "Edge",
+          "source": "ae774cf229764b1f9ddfa08ca2efe2a6",
+          "target": "676aabb69d3c44e2b68d981574a12123",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "51a1995fd9234a84b8230dda14105a0c",
+          "edgeType": "Edge",
+          "source": "676aabb69d3c44e2b68d981574a12123",
+          "target": "04d221ac978d4e5999edfef9b741702f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0c1ab2b6721746848a7f289272255144",
+          "edgeType": "Branch",
+          "source": "81f13a6a8c8949038d492ee922b5b397",
+          "target": "b38eca767d344acfbb592e7fb2081444",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return (parseInt(vaVars.count) != 0 &amp;&amp; vaVars.lookup_rowcount == 0);\n})()"
+          },
+          "label": "Has results and unsupported"
+        },
+        {
+          "id": "ff7e1e0e57fc4f7b81456ef88bf0ee6e",
+          "edgeType": "Edge",
+          "source": "b38eca767d344acfbb592e7fb2081444",
+          "target": "33e31a1400f44c04b7d1d622694c14dd",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "7f7ddc5ee8804cf39006facb9e4032fb",
+          "edgeType": "Edge",
+          "source": "33e31a1400f44c04b7d1d622694c14dd",
+          "target": "da810b8c2ce742abbddd1d910f83eff1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ecfc9018487c473f97898823cdf2030d",
+          "edgeType": "Edge",
+          "source": "da810b8c2ce742abbddd1d910f83eff1",
+          "target": "1f94feaebeea44209016f4675e9b6c3c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ba572fab1c834a0ebbc3e054f990f8d4",
+          "edgeType": "Branch",
+          "source": "1f94feaebeea44209016f4675e9b6c3c",
+          "target": "128250f711cf4c90852d7fcf690eee3c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "was_this_helpful=true",
+            "mode": "query"
+          },
+          "label": "Helpful"
+        },
+        {
+          "id": "dea8ddbec3e7496da9c9264a4f0cce06",
+          "edgeType": "Branch",
+          "source": "81f13a6a8c8949038d492ee922b5b397",
+          "target": "669b288a50d1423ebaf64e3f8deb31ff",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return (parseInt(vaVars.count) != 0 &amp;&amp; vaVars.lookup_rowcount &gt; 0);\n})()"
+          },
+          "label": "Has results and supported"
+        },
+        {
+          "id": "7bbd2d7a5bc24cb2b3961966252b2cc8",
+          "edgeType": "Branch",
+          "source": "1f94feaebeea44209016f4675e9b6c3c",
+          "target": "40b8abbd6eea41f8a4d5ec2f05c029cd",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "was_this_helpful=",
+            "mode": "query"
+          },
+          "label": "Not Helpful"
+        },
+        {
+          "id": "a7bf9a09240c40d092a473f398ad1592",
+          "edgeType": "Edge",
+          "source": "40b8abbd6eea41f8a4d5ec2f05c029cd",
+          "target": "6ce3dcdbd46b4764a3219bd671ddcf9e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "dc69a030426943df88e94f6320d1554e",
+          "edgeType": "Edge",
+          "source": "669b288a50d1423ebaf64e3f8deb31ff",
+          "target": "d3b805daf60c4eb981d948472c46832e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ccd69cff4b0949c6828602259f0b8e75",
+          "edgeType": "Edge",
+          "source": "d3b805daf60c4eb981d948472c46832e",
+          "target": "0614050584c2448c8808327f42ca66b1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f2316b5ba8304905b82e3c7a7aa876cd",
+          "edgeType": "Edge",
+          "source": "0614050584c2448c8808327f42ca66b1",
+          "target": "983843ac6e9a49f2982add9a69d56b2c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ca0a41ff51f1490c93a9b9a000ebfdee",
+          "edgeType": "Branch",
+          "source": "983843ac6e9a49f2982add9a69d56b2c",
+          "target": "128250f711cf4c90852d7fcf690eee3c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "was_this_helpful_supported=true",
+            "mode": "query"
+          },
+          "label": "Helpful"
+        },
+        {
+          "id": "37d90632e31d434f9be881ead63fac01",
+          "edgeType": "Branch",
+          "source": "983843ac6e9a49f2982add9a69d56b2c",
+          "target": "21cfb2fe7b0e467ab29152045f0a8768",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "was_this_helpful_supported=",
+            "mode": "query"
+          },
+          "label": "Not Helpful"
+        },
+        {
+          "id": "19451c5eb68146049e9adf96b77d40e3",
+          "edgeType": "Edge",
+          "source": "21cfb2fe7b0e467ab29152045f0a8768",
+          "target": "5b00c9411aa04132b1cc755d064668e6",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0eefed9c8eaf419b9ef62cd1d530e11b",
+          "edgeType": "Edge",
+          "source": "5b00c9411aa04132b1cc755d064668e6",
+          "target": "ed5463cd85e747dd9728d12c8fa5118f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0032893c3de0421e864f1305c797b876",
+          "edgeType": "Edge",
+          "source": "04d221ac978d4e5999edfef9b741702f",
+          "target": "ef13ea68cda94b768b6cbee4c2033fc9",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "587366361b02412ab4e04dcadf8dc65f",
+          "edgeType": "Edge",
+          "source": "ef13ea68cda94b768b6cbee4c2033fc9",
+          "target": "73d97a3cd88444aaa22d17c43bb79f16",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "504ea1b9915047bb9690272148d3d601",
+          "edgeType": "Edge",
+          "source": "73d97a3cd88444aaa22d17c43bb79f16",
+          "target": "128250f711cf4c90852d7fcf690eee3c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ebcd2ed5b16d41f993b8950e0d2756b2",
+          "edgeType": "Edge",
+          "source": "ed5463cd85e747dd9728d12c8fa5118f",
+          "target": "eb3d89aa497b4746a6e92849117838d5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d58065fbf9434828a43b2cbae71711c7",
+          "edgeType": "Edge",
+          "source": "eb3d89aa497b4746a6e92849117838d5",
+          "target": "9da2ac8d0d6846a7adf2e7b5d16a244c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "3b48ebaea74b4cb0a546d628bbb077d8",
+          "edgeType": "Edge",
+          "source": "9da2ac8d0d6846a7adf2e7b5d16a244c",
+          "target": "128250f711cf4c90852d7fcf690eee3c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "bccb48e5359a4722b22e96f800c098dc",
+          "edgeType": "Edge",
+          "source": "63f54e829a2340e7bdd0b605355ce816",
+          "target": "94293979582e400bbc86a6bc6fc14b26",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "bbde553da2824284a9a0cccafde89fbc",
+          "edgeType": "Edge",
+          "source": "94293979582e400bbc86a6bc6fc14b26",
+          "target": "d17da793dbcf46059b6badf17b765e70",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "50751abd561a47898f83784d710c80c1",
+          "edgeType": "Edge",
+          "source": "d17da793dbcf46059b6badf17b765e70",
+          "target": "7c5181f4e93a4f72814fabcb67f3e636",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6705bd904e554d72aef57f7b48ef9d88",
+          "edgeType": "Branch",
+          "source": "7c5181f4e93a4f72814fabcb67f3e636",
+          "target": "40e55d21f966409faa1ff759c9583d42",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    var smGr = new GlideRecord('cmdb_software_product_model');\n    smGr.addQuery('display_name', 'CONTAINS', vaInputs.which_software);\n    smGr.query();\n    var rowCount = smGr.getRowCount();\n\n    return rowCount &gt; 0;\n})()\n"
+          },
+          "label": "Software found"
+        },
+        {
+          "id": "dd341294341246c1a2d124a668f2f6a2",
+          "edgeType": "Branch",
+          "source": "7c5181f4e93a4f72814fabcb67f3e636",
+          "target": "63f2705d73b8465388ec0c5673eb1fc4",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    var smGr = new GlideRecord('cmdb_software_product_model');\n    smGr.addQuery('display_name', 'CONTAINS', vaInputs.which_software);\n    smGr.query();\n    var rowCount = smGr.getRowCount();\n\n    return rowCount == 0;\n})()"
+          },
+          "label": "Software not found"
+        },
+        {
+          "id": "41a196c042b14cb0b7f215ce7cc6e373",
+          "edgeType": "Edge",
+          "source": "63f2705d73b8465388ec0c5673eb1fc4",
+          "target": "40e55d21f966409faa1ff759c9583d42",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "graph_api_version": "1.0.13",
+  "variables": {
+    "6799d3313a224438baed48024e3a9f48": {
+      "id": "6799d3313a224438baed48024e3a9f48",
+      "name": "which_software",
+      "label": "Which Software",
+      "varType": "string",
+      "category": "vaInputs"
+    },
+    "2b8c1eef20ef41a984070aebdef4bfb8": {
+      "id": "2b8c1eef20ef41a984070aebdef4bfb8",
+      "value": {
+        "mode": "simple",
+        "value": "0"
+      },
+      "name": "lookup_rowcount",
+      "label": "lookup_rowcount",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "317f975a67b345f08856b68fe6658e73": {
+      "id": "317f975a67b345f08856b68fe6658e73",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "search_kb_json_string",
+      "label": "search_kb_json_string",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "030a3611dd1b469284b724edeb16b36b": {
+      "id": "030a3611dd1b469284b724edeb16b36b",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "count",
+      "label": "count",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "c02f2f4407c24b78b3400b5306187ab1": {
+      "id": "c02f2f4407c24b78b3400b5306187ab1",
+      "name": "urgency",
+      "label": "Urgency",
+      "varType": "reference",
+      "table": "",
+      "category": "vaInputs"
+    },
+    "f7b6b36625cf4907b7b4cdfab24a734e": {
+      "id": "f7b6b36625cf4907b7b4cdfab24a734e",
+      "name": "create_incident",
+      "label": "Create Incident",
+      "varType": "reference",
+      "table": "incident",
+      "inactive": false,
+      "category": "vaInputs"
+    },
+    "2b2ca154df0b4bd39c33f1293310de80": {
+      "id": "2b2ca154df0b4bd39c33f1293310de80",
+      "name": "was_this_helpful",
+      "label": "Was This Helpful",
+      "varType": "boolean",
+      "category": "vaInputs"
+    },
+    "a3e100d965d94d1b9efe7206490f7b47": {
+      "id": "a3e100d965d94d1b9efe7206490f7b47",
+      "name": "was_this_helpful_supported",
+      "label": "Was This Helpful - Supported",
+      "varType": "boolean",
+      "category": "vaInputs"
+    },
+    "da49f19f47dd4bbfa67b550a252f615b": {
+      "id": "da49f19f47dd4bbfa67b550a252f615b",
+      "name": "create_incident_supported",
+      "label": "Create Incident - Supported",
+      "varType": "reference",
+      "table": "incident",
+      "inactive": false,
+      "category": "vaInputs"
+    },
+    "05f548eb87a646d394d953523268ff7b": {
+      "id": "05f548eb87a646d394d953523268ff7b",
+      "name": "urgency_supported",
+      "label": "Urgency - Supported",
+      "varType": "reference",
+      "table": "",
+      "category": "vaInputs"
+    },
+    "b52299a70cfa455b8f6d01f12b219f62": {
+      "id": "b52299a70cfa455b8f6d01f12b219f62",
+      "value": {
+        "mode": "simple",
+        "value": "3"
+      },
+      "name": "limit",
+      "label": "limit",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "a7a7b3998c5d43ce8e8961f6fad4e276": {
+      "id": "a7a7b3998c5d43ce8e8961f6fad4e276",
+      "name": "LiveAgent_application",
+      "value": {
+        "mode": "simple",
+        "value": "itsm"
+      },
+      "varType": "script",
+      "category": "vaVars",
+      "label": "LiveAgent_application"
+    },
+    "33f89e22b7cc430b97b52bb43612045b": {
+      "id": "33f89e22b7cc430b97b52bb43612045b",
+      "name": "LiveAgent_short_description",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "varType": "script",
+      "category": "vaVars"
+    }
+  }
+}</graph><key_phrases>software,issue,program,problem,help,not working,classroom</key_phrases><live_agent>false</live_agent><name>Software assistance</name><nlu_intent>Get Software Help</nlu_intent><nlu_model>global_x_snc_nsw_ed_nlu_m_NSW_Ed_NLU_Mod</nlu_model><nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider><roles/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>james.tandy@snc</sys_created_by><sys_created_on>2019-10-02 00:28:33</sys_created_on><sys_domain>global</sys_domain><sys_id>cbaf7ea8db1c0c10b158a2b4449619e5</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Software assistance</sys_name><sys_package display_value="Software Assist" source="x_snc_stwa">e31f3668db1c0c10b158a2b444961942</sys_package><sys_policy/><sys_scope display_value="Software Assist">e31f3668db1c0c10b158a2b444961942</sys_scope><sys_update_name>sys_cb_topic_cbaf7ea8db1c0c10b158a2b4449619e5</sys_update_name><sys_updated_by>james.tandy@snc</sys_updated_by><sys_updated_on>2019-10-02 01:20:07</sys_updated_on><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=cbaf7ea8db1c0c10b158a2b4449619e5"/></record_update>]]></payload>
+<payload_hash>-870362589</payload_hash>
+<remote_update_set display_value="Software Assist">dceb4328db5c0c10b158a2b444961912</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>james.tandy@snc</sys_created_by>
+<sys_created_on>2019-10-02 01:21:53</sys_created_on>
+<sys_id>94eb4328db5c0c10b158a2b444961913</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d8a0f18cf0000001</sys_recorded_at>
+<sys_updated_by>james.tandy@snc</sys_updated_by>
+<sys_updated_on>2019-10-02 01:21:53</sys_updated_on>
+<table/>
+<target_name>Software assistance</target_name>
+<type>Topic</type>
+<update_domain>global</update_domain>
+<update_guid>627b83ecfe1c0c10e7586ac8cd47ac5e</update_guid>
+<update_guid_history>627b83ecfe1c0c10e7586ac8cd47ac5e:-870362589,54350fe86d1c0c106a222b1542c6ea34:591227989,9d1203ac831c0c10f4b2f2cb810891ff:172682139,03affae8c61c0c10a3d9f56f9d71392b:224156498</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Software Assist">e31f3668db1c0c10b158a2b444961942</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_e31f3668db1c0c10b158a2b444961942</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>false</can_edit_in_studio><enforce_license>log</enforce_license><guided_setup_guid/><js_level>helsinki_es5</js_level><licensable>true</licensable><license_category>none</license_category><license_model>none</license_model><logo/><menu/><name>Software Assist</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_snc_stwa</scope><scoped_administration>false</scoped_administration><short_description/><source>x_snc_stwa</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>james.tandy@snc</sys_created_by><sys_created_on>2019-10-02 00:26:08</sys_created_on><sys_id>e31f3668db1c0c10b158a2b444961942</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>james.tandy@snc</sys_updated_by><sys_updated_on>2019-10-02 00:57:16</sys_updated_on><template/><trackable>true</trackable><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]></payload>
+<payload_hash>968823881</payload_hash>
+<remote_update_set display_value="Software Assist">dceb4328db5c0c10b158a2b444961912</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>james.tandy@snc</sys_created_by>
+<sys_created_on>2019-10-02 01:21:53</sys_created_on>
+<sys_id>d0eb4328db5c0c10b158a2b444961913</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d8a0f183a0000001</sys_recorded_at>
+<sys_updated_by>james.tandy@snc</sys_updated_by>
+<sys_updated_on>2019-10-02 01:21:53</sys_updated_on>
+<table/>
+<target_name>Software Assist</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>7b36c7a02c5c0c107e2bacc942af1ee4</update_guid>
+<update_guid_history>7b36c7a02c5c0c107e2bacc942af1ee4:968823881,731ff6a8441c0c10844f32f232cb4bf4:-221245199</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Software Assist">e31f3668db1c0c10b158a2b444961942</application>
+<category>customer</category>
+<comments/>
+<name>sys_package_dependency_m2m_8c364f60db5c0c10b158a2b444961958</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m"><sys_package_dependency_m2m action="INSERT_OR_UPDATE"><dependency display_value="Advanced Work Assignment" source="com.glide.awa">8586e322db03b7003390468b3a961989</dependency><min_version>1.0.0</min_version><sys_created_by>james.tandy@snc</sys_created_by><sys_created_on>2019-10-02 00:57:01</sys_created_on><sys_id>8c364f60db5c0c10b158a2b444961958</sys_id><sys_mod_count>0</sys_mod_count><sys_package display_value="Software Assist" source="x_snc_stwa">e31f3668db1c0c10b158a2b444961942</sys_package><sys_updated_by>james.tandy@snc</sys_updated_by><sys_updated_on>2019-10-02 00:57:01</sys_updated_on></sys_package_dependency_m2m></record_update>]]></payload>
+<payload_hash>-201743152</payload_hash>
+<remote_update_set display_value="Software Assist">dceb4328db5c0c10b158a2b444961912</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>james.tandy@snc</sys_created_by>
+<sys_created_on>2019-10-02 01:21:53</sys_created_on>
+<sys_id>dceb4328db5c0c10b158a2b444961913</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d8a0f18550000001</sys_recorded_at>
+<sys_updated_by>james.tandy@snc</sys_updated_by>
+<sys_updated_on>2019-10-02 01:21:53</sys_updated_on>
+<table/>
+<target_name>Software Assist.Advanced Work Assignment</target_name>
+<type>Package dependency</type>
+<update_domain>global</update_domain>
+<update_guid>47dbcfe4155c0c10b2f1c6d173db42e3</update_guid>
+<update_guid_history>47dbcfe4155c0c10b2f1c6d173db42e3:-201743152,bf464ba0285c0c104f41407f141dc7c9:-201743152</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
