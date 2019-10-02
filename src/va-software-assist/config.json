@@ -3,20 +3,20 @@
   "category": "General",
   "common-name": "Software Assist",
   "compatibility": [
-    "Jakarta",
-    "Kingston",
-    "London"
+    "London",
+    "Madrid",
+    "New York"
   ],
   "contributors": [
-    "Steven Gregory"
+    "James Tandy"
   ],
   "keywords": [
-    "va",
-    "virtual agent"
+    "VA",
+    "Virtual Agent"
   ],
   "name": "va-software-assist",
   "publishing-goal": "Update set",
-  "solution-details": "",
+  "solution-details": "A Virtual Agent conversation designed to triage issues with supported and unsupported software. There are four possible outcomes involving whether the software is listed as In Production in the cmdb and whether or not we have KB articles that may be helpful. The user is either routed to a live agent or has an incident created for them depending on the circumstance",
   "type": "Virtual Agent",
   "version": "1.0.0"
 }
