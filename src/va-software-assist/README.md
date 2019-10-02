@@ -1,10 +1,8 @@
 # Software Assist
 
-A Virtual Agent conversation designed to triage issues with supported and unsupported software. There are four possible outcomes involving whether the software is listed as "In Production" in the cmdb and whether or not we have KB articles that may be helpful. The user is either routed to a live agent or has an incident created for them depending on the circumstance.
-
 ## Description
 
-> None
+A Virtual Agent conversation designed to triage issues with supported and unsupported software. There are four possible outcomes involving whether the software is listed as "In Production" in the cmdb and whether or not we have KB articles that may be helpful. The user is either routed to a live agent or has an incident created for them depending on the circumstance.
 
 ## Screenshot
 
